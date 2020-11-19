@@ -1,0 +1,57 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo{
+    width: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0px;
+    display: flex;
+}
+.container .contactInfo .box .icon{
+    min-width: 40px;
+    height: 60px;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+    font-size: 30px;
+    margin-left: 10%;
+}
+
+.contactform{
+    width:30%;
+    padding: 40px;
+    background: #fff;
+    margin-left: 20%;
+
+}
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactform .inputbox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border:none;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
