@@ -1,0 +1,22 @@
+﻿
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout1.cshtml";
+}
+
+
+
+@Html.Raw(TempData["loginstatus"])
+
+
+<h3 style="color:white;text-align:center; background-color:black">User: @Session["Username"]</h3></hr>
+<h4>@Html.ActionLink("Logout", "Logout", "Login")</h4>
+
+
+
+
+
+
+
+

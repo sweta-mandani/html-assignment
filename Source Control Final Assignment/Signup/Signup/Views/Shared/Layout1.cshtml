@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+</head>
+<body>
+    <div class="container-xl">
+
+        <nav class="navbar navbar-inverse mx-height:20px">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    @Html.ActionLink("REGISTRATION", "Index", "User", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <ul class="nav navbar-nav">
+                    <li> @Html.ActionLink("Home", "Index", "Login")</li>
+                    <li> @Html.ActionLink("Total User", "Index", "Home")</li>
+                    
+
+                    <li style="color:#ffffff;margin-top:15px;position: relative;padding-left:200px">
+                        WelCome @Session["Username"]
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li> @Html.ActionLink("Logout", "Logout", "Login", new { @class = "glyphicon glyphicon-log-out" })</li>
+
+
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="row">
+            <div class="container body-content">
+                @RenderBody()
+
+            </div>
+        </div>
+        <div class="row">
+
+            <footer>
+                <p>&copy; @DateTime.Now.Year -Assignmemt1</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
