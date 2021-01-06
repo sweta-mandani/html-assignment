@@ -1,0 +1,16 @@
+2020-12-25 00:47:07.1933 Debug Loading config from C:\Users\Besitzer\source\repos\Product Management\Product Management\NLog.config
+2020-12-25 00:47:07.2202 Info Configuring from an XML element in C:\Users\Besitzer\source\repos\Product Management\Product Management\NLog.config...
+2020-12-25 00:47:07.2272 Trace ParseNLogElement
+2020-12-25 00:47:07.2272 Trace ParseNLogConfig
+2020-12-25 00:49:10.5059 Debug Loading config from C:\Users\Besitzer\source\repos\Product Management\Product Management\NLog.config
+2020-12-25 00:49:10.5530 Info Configuring from an XML element in C:\Users\Besitzer\source\repos\Product Management\Product Management\NLog.config...
+2020-12-25 00:49:10.5530 Trace ParseNLogElement
+2020-12-25 00:49:10.5708 Trace ParseNLogConfig
+2020-12-25 00:50:44.9647 Debug Loading config from C:\Users\Besitzer\source\repos\Product Management\Product Management\NLog.config
+2020-12-25 00:50:44.9747 Info Configuring from an XML element in C:\Users\Besitzer\source\repos\Product Management\Product Management\NLog.config...
+2020-12-25 00:50:44.9747 Trace ParseNLogElement
+2020-12-25 00:50:44.9747 Trace ParseNLogConfig
+2020-12-25 00:59:58.2537 Debug Loading config from C:\Users\Besitzer\source\repos\Product Management\Product Management\NLog.config
+2020-12-25 00:59:58.2716 Info Configuring from an XML element in C:\Users\Besitzer\source\repos\Product Management\Product Management\NLog.config...
+2020-12-25 00:59:58.2716 Trace ParseNLogElement
+2020-12-25 00:59:58.2945 Trace ParseNLogConfig

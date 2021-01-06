@@ -1,0 +1,4 @@
+2020-12-25 00:43:01.5658 Debug Loading config from C:\Users\Besitzer\source\repos\Product Management\Product Management\NLog.config
+2020-12-25 00:43:01.5900 Info Configuring from an XML element in C:\Users\Besitzer\source\repos\Product Management\Product Management\NLog.config...
+2020-12-25 00:43:01.5900 Trace ParseNLogElement
+2020-12-25 00:43:01.6057 Trace ParseNLogConfig

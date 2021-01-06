@@ -1,0 +1,22 @@
+﻿
+@*----------------------------------------------------------------------Index View For UserName ------------------------------------------------------------------------------*@
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout1.cshtml";
+}
+
+
+
+@Html.Raw(TempData["loginstatus"])
+
+
+<h3 style="color:white;text-align:center;margin-top:20%;margin-bottom:30%; background-color:black;justify-content:center;display:flex;flex-direction:column">
+    &#128522
+    Welcome @Session["Username"]&#128522
+
+</h3></hr>
+<h4>@Html.ActionLink("back to Login", "Logout", "Home")</h4>
+
+
