@@ -14,6 +14,7 @@ namespace Web_API.Models
     
     public partial class Product
     {
+        
         public int ProductId { get; set; }
         public string ProductName { get; set; }
         public string Categoery { get; set; }

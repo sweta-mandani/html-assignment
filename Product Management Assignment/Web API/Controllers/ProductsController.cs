@@ -1,28 +1,27 @@
-﻿using System;
+﻿using Web_API.Models;
+
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
-using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
-using System.Threading.Tasks;
-using System.Web;
 using System.Web.Http;
 using System.Web.Http.Description;
-using Web_API.Models;
 
-namespace Web_API.Controllers
+
+namespace WebApiInMVC.Controllers
 {
     public class ProductsController : ApiController
     {
         private UserEntities1 db = new UserEntities1();
-
         // GET: api/Products
-        public IQueryable<Product> GetProducts()
+        public IHttpActionResult GetProducts()
         {
-            return db.Products;
+            var res = db.Products.ToList();
+            return Ok(res);
         }
 
         // GET: api/Products/5
@@ -30,6 +29,7 @@ namespace Web_API.Controllers
         public IHttpActionResult GetProduct(int id)
         {
             Product product = db.Products.Find(id);
+    
             if (product == null)
             {
                 return NotFound();
@@ -40,74 +40,56 @@ namespace Web_API.Controllers
 
         // PUT: api/Products/5
         [ResponseType(typeof(void))]
-        public IHttpActionResult PutProduct(int id, Product product)
+        public IHttpActionResult PutProduct( Product product)
         {
-            if (!ModelState.IsValid)
+            var update = db.Products.Where(x => x.ProductId == product.ProductId).FirstOrDefault<Product>();
+
+            if (update != null)
             {
-                return BadRequest("Invalid data .please rechgeckes!");
-            }
-
-
-            if (id != product.ProductId)
-            {
-                return BadRequest();
-            }
-
-            db.Entry(product).State = EntityState.Modified;
-
-            try
-            {
+                update.ProductId = product.ProductId;
+                update.ProductName = product.ProductName;
+                update.Categoery = product.Categoery;
+                update.Quantity = product.Quantity;
+                update.Small_Image = product.Small_Image;
+                update.Short_Description = product.Short_Description;
+                update.Price = product.Price;
+                
+              
                 db.SaveChanges();
             }
-            catch (DbUpdateConcurrencyException)
+            else
             {
-                if (!ProductExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return NotFound();
             }
 
-            return StatusCode(HttpStatusCode.NoContent);
+            return Ok();
         }
 
         // POST: api/Products
         [ResponseType(typeof(Product))]
-       
+        [HttpPost]
         public IHttpActionResult PostProduct(Product product)
         {
 
-            if (!ModelState.IsValid)
-                return BadRequest("Invalid data.");
 
+            db.Products.Add(product);
+            db.SaveChanges();
 
-                  db.Products.Add(product);
-
-                    db.SaveChanges();
-                
-            
             return Ok();
         }
-
-
 
         // DELETE: api/Products/5
         [ResponseType(typeof(Product))]
         public IHttpActionResult DeleteProduct(int id)
         {
-            Product product = db.Products.Find(id);
-            if (product == null)
-            {
-                return NotFound();
-            }
+            var update = db.Products.Where(x => x.ProductId == id).FirstOrDefault();
+            db.Entry(update).State = System.Data.Entity.EntityState.Deleted;
 
-            db.Products.Remove(product);
+
+           
             db.SaveChanges();
 
-            return Ok(product);
+            return Ok();
         }
 
         protected override void Dispose(bool disposing)
@@ -123,5 +105,5 @@ namespace Web_API.Controllers
         {
             return db.Products.Count(e => e.ProductId == id) > 0;
         }
-           }
+    }
 }

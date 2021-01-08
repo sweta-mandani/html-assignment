@@ -16,7 +16,7 @@ namespace Web_API
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Accountweb", action = "Register", id = UrlParameter.Optional }
             );
         }
     }

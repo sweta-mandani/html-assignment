@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Web_API.Models;
+
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
@@ -8,100 +10,48 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
-using Web_API.Models;
 
-namespace Web_API.Controllers
+
+namespace WebApiInMVC.Controllers
 {
     public class AccountsController : ApiController
     {
         private UserEntities1 db = new UserEntities1();
-
-        // GET: api/Accounts
-        public IQueryable<Account> GetAccounts()
+        // GET: api/Products
+        public IHttpActionResult GetAccounts()
         {
-            return db.Accounts;
+            var res = db.Accounts.ToList();
+            return Ok(res);
         }
 
-        // GET: api/Accounts/5
+        // GET: api/Products/5
         [ResponseType(typeof(Account))]
         public IHttpActionResult GetAccount(int id)
         {
-            Account account = db.Accounts.Find(id);
-            if (account == null)
+            Account a = db.Accounts.Find(id);
+
+            if (a == null)
             {
                 return NotFound();
             }
 
-            return Ok(account);
+            return Ok(a);
         }
 
-        // PUT: api/Accounts/5
+        // PUT: api/Products/5
         [ResponseType(typeof(void))]
-        public IHttpActionResult PutAccount(int id, Account account)
+        [HttpPost]
+        public IHttpActionResult PostRegister(Account a)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            if (id != account.Id)
-            {
-                return BadRequest();
-            }
-
-            db.Entry(account).State = EntityState.Modified;
-
-            try
-            {
-                db.SaveChanges();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!AccountExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return StatusCode(HttpStatusCode.NoContent);
-        }
-
-        // POST: api/Accounts
-        [ResponseType(typeof(Account))]
-        public IHttpActionResult PostAccount(Account account)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            db.Accounts.Add(account);
+            db.Accounts.Add(a);
             db.SaveChanges();
 
-            return CreatedAtRoute("DefaultApi", new { id = account.Id }, account);
+            return Ok();
         }
 
-        // DELETE: api/Accounts/5
-        [ResponseType(typeof(Account))]
-        public IHttpActionResult DeleteAccount(int id)
-        {
-            Account account = db.Accounts.Find(id);
-            if (account == null)
-            {
-                return NotFound();
-            }
-
-            db.Accounts.Remove(account);
-            db.SaveChanges();
-
-            return Ok(account);
-        }
-
-        protected override void Dispose(bool disposing)
+           
+        
+protected override void Dispose(bool disposing)
         {
             if (disposing)
             {
@@ -110,9 +60,9 @@ namespace Web_API.Controllers
             base.Dispose(disposing);
         }
 
-        private bool AccountExists(int id)
+        private bool ProductExists(int id)
         {
-            return db.Accounts.Count(e => e.Id == id) > 0;
+            return db.Products.Count(e => e.ProductId == id) > 0;
         }
     }
 }
