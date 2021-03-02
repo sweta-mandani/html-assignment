@@ -1,0 +1,2 @@
+C:\Users\Besitzer\source\repos\Passenger_testing\Passenger_testing\obj\Debug\Passenger_testing.csprojAssemblyReference.cache
+C:\Users\Besitzer\source\repos\Passenger_testing\Passenger_testing\obj\Debug\Passenger_testing.csproj.CoreCompileInputs.cache

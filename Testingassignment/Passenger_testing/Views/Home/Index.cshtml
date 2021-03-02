@@ -1,0 +1,37 @@
+﻿@model IEnumerable< Passenger_testing.Models.passe_test>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3 class="text-center text-uppercase">List of Employee</h3>
+<p>
+    @Html.ActionLink("Create New", "Create", "", new { @class = "btn btn-primary" })
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(m => m.Firstname)</th>
+            <th>@Html.DisplayNameFor(m => m.LastName)</th>
+            <th>@Html.DisplayNameFor(m => m.Phonenumber)</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var emp in Model)
+        {
+            <tr>
+                <td>@emp.FirstName</td>
+                <td>@emp.LastName</td>
+                <td>@emp.Phonenumber </td>
+
+                <td>
+                    @Html.ActionLink("Details", "Details", new { id = emp.Passenger_number }, new { @class = "btn btn-info" })
+                    @Html.ActionLink("Edit", "Edit", new { id = emp.Passenger_number }, new { @class = "btn btn-primary" })
+                    @Html.ActionLink("Delete", "Delete", new { id = emp.Passenger_number }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>

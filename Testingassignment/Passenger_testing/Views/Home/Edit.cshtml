@@ -1,0 +1,47 @@
+﻿
+@model Passenger_testing.Models.passe_test
+@{
+    ViewBag.Title = "Edit";
+}
+
+<div class="card" style="width:60%; margin:auto;">
+    <div class="card-header bg-dark text-white">
+        <h3>Edit Employee</h3>
+    </div>
+    <div class="card-body">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(m => m.Passenger_number)
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Firstname)
+                        @Html.EditorFor(m => m.Firstname, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(m => m.Firstname)
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.LastName)
+                        @Html.EditorFor(m => m.LastName, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(m => m.LastName)
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Phonenumber)
+                        @Html.EditorFor(m => m.Phonenumber, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(m => m.Phonenumber)
+                    </div>
+                </div>
+               
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Update</button>
+            </div>
+        }
+    </div>
+</div>
