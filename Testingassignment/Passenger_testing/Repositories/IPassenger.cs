@@ -1,4 +1,5 @@
-﻿using Passenger_testing.Models;
+﻿
+using Passenger_testing.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,13 +10,12 @@ namespace Passenger_testing.Repositories
 {
     public interface IPassenger
     {
-        
-            IEnumerable<passe_test> Getpassenger();
-            Passengerepo GetpassengerById(int Passenger_number);
-            void Newpassenger(passe_test passenger);
-            void Updatepassenger(passe_test passenger);
-            void Deletepassenger(int id);
-            void Save();
-        
+        passe_test PassengerRegistration(passe_test model);
+        passe_test PassengerUpdate(passe_test model);
+        Boolean PassengerDelete(String Passenger_number);
+        IList<passe_test> getAllPassenger();
+        passe_test getPassengerByPassengerId(String Passenger_number);
+
     }
 }
+
