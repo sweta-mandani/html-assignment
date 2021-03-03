@@ -1,0 +1,12 @@
+C:\Users\Besitzer\source\repos\Testing Assignment 2\TestingAssignment\bin\Debug\netcoreapp2.1\TestingAssignment.deps.json
+C:\Users\Besitzer\source\repos\Testing Assignment 2\TestingAssignment\bin\Debug\netcoreapp2.1\TestingAssignment.runtimeconfig.json
+C:\Users\Besitzer\source\repos\Testing Assignment 2\TestingAssignment\bin\Debug\netcoreapp2.1\TestingAssignment.runtimeconfig.dev.json
+C:\Users\Besitzer\source\repos\Testing Assignment 2\TestingAssignment\bin\Debug\netcoreapp2.1\TestingAssignment.dll
+C:\Users\Besitzer\source\repos\Testing Assignment 2\TestingAssignment\bin\Debug\netcoreapp2.1\TestingAssignment.pdb
+C:\Users\Besitzer\source\repos\Testing Assignment 2\TestingAssignment\obj\Debug\netcoreapp2.1\TestingAssignment.csprojAssemblyReference.cache
+C:\Users\Besitzer\source\repos\Testing Assignment 2\TestingAssignment\obj\Debug\netcoreapp2.1\TestingAssignment.AssemblyInfoInputs.cache
+C:\Users\Besitzer\source\repos\Testing Assignment 2\TestingAssignment\obj\Debug\netcoreapp2.1\TestingAssignment.AssemblyInfo.cs
+C:\Users\Besitzer\source\repos\Testing Assignment 2\TestingAssignment\obj\Debug\netcoreapp2.1\TestingAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Besitzer\source\repos\Testing Assignment 2\TestingAssignment\obj\Debug\netcoreapp2.1\TestingAssignment.dll
+C:\Users\Besitzer\source\repos\Testing Assignment 2\TestingAssignment\obj\Debug\netcoreapp2.1\TestingAssignment.pdb
+C:\Users\Besitzer\source\repos\Testing Assignment 2\TestingAssignment\obj\Debug\netcoreapp2.1\TestingAssignment.genruntimeconfig.cache
