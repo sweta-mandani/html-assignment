@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HotelModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Booking">
+    <Key>
+      <PropertyRef Name="BookingId" />
+    </Key>
+    <Property Name="BookingId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BookingDate" Type="date" Nullable="false" />
+    <Property Name="Room_id" Type="int" />
+    <Property Name="StatusOfBooking" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HotelM">
+    <Key>
+      <PropertyRef Name="HotelId" />
+    </Key>
+    <Property Name="HotelId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HotelName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Address" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PinCode" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Contact Number" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="Contact Person" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Website" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FaceBook" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Twitter" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="IsActive" Type="nchar" MaxLength="10" />
+    <Property Name="Create date" Type="date" Nullable="false" />
+    <Property Name="Create By" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Updated Date" Type="date" />
+    <Property Name="Updated By" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Room">
+    <Key>
+      <PropertyRef Name="RoomID" />
+    </Key>
+    <Property Name="RoomID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoomName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="RoomCategory" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="RoomPrice" Type="int" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="CreatedDate" Type="date" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdatedDate" Type="date" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="Hotel_id" Type="int" />
+  </EntityType>
+  <Association Name="FK_Hotel_id">
+    <End Role="HotelM" Type="Self.HotelM" Multiplicity="0..1" />
+    <End Role="Room" Type="Self.Room" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HotelM">
+        <PropertyRef Name="HotelId" />
+      </Principal>
+      <Dependent Role="Room">
+        <PropertyRef Name="Hotel_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Room_id">
+    <End Role="Room" Type="Self.Room" Multiplicity="0..1" />
+    <End Role="Booking" Type="Self.Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Room">
+        <PropertyRef Name="RoomID" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="Room_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HotelModelStoreContainer">
+    <EntitySet Name="Booking" EntityType="Self.Booking" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HotelM" EntityType="Self.HotelM" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Room" EntityType="Self.Room" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Hotel_id" Association="Self.FK_Hotel_id">
+      <End Role="HotelM" EntitySet="HotelM" />
+      <End Role="Room" EntitySet="Room" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Room_id" Association="Self.FK_Room_id">
+      <End Role="Room" EntitySet="Room" />
+      <End Role="Booking" EntitySet="Booking" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
