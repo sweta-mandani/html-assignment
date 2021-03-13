@@ -13,12 +13,12 @@
 					"basic": [
 						{
 							"key": "password",
-							"value": "webapi13",
+							"value": "12345",
 							"type": "string"
 						},
 						{
 							"key": "username",
-							"value": "Hardi",
+							"value": "sweta",
 							"type": "string"
 						}
 					]
@@ -26,7 +26,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44371/api/hotel/AllHotels",
+					"raw": "https://localhost:44371/api/Hotel/AllHotels",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -34,7 +34,7 @@
 					"port": "44371",
 					"path": [
 						"api",
-						"hotel",
+						"Hotel",
 						"AllHotels"
 					]
 				},
@@ -50,12 +50,12 @@
 					"basic": [
 						{
 							"key": "password",
-							"value": "webapi13",
+							"value": "12345",
 							"type": "string"
 						},
 						{
 							"key": "username",
-							"value": "Hardi",
+							"value": "sweta",
 							"type": "string"
 						}
 					]
@@ -63,7 +63,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44371/api/hotel/findHotel/2",
+					"raw": "https://localhost:44371/api/Hotel/findHotel/2",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -71,7 +71,7 @@
 					"port": "44371",
 					"path": [
 						"api",
-						"hotel",
+						"Hotel",
 						"findHotel",
 						"2"
 					]
@@ -88,12 +88,12 @@
 					"basic": [
 						{
 							"key": "password",
-							"value": "webapi13",
+							"value": "12345",
 							"type": "string"
 						},
 						{
 							"key": "username",
-							"value": "Hardi",
+							"value": "sweta",
 							"type": "string"
 						}
 					]
@@ -102,7 +102,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"BookingId\": 5,\r\n        \"RoomId\": 5,\r\n        \"BookingDate\": \"2021-01-10T00:00:00\",\r\n        \"BookingsStatus\": \"Delete\"\r\n    }",
+					"raw": "{\r\n        \"BookingId\": 5,\r\n        \"Room_id\": 5,\r\n        \"BookingDate\": \"2021-01-10T00:00:00\",\r\n        \"StatusOfBooking\": \"Delete\"\r\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -110,7 +110,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://localhost:44371/api/booking/updateStatus",
+					"raw": "https://localhost:44371/api/Booking/updateStatus",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -118,7 +118,7 @@
 					"port": "44371",
 					"path": [
 						"api",
-						"booking",
+						"Booking",
 						"updateStatus"
 					]
 				}
@@ -133,12 +133,12 @@
 					"basic": [
 						{
 							"key": "password",
-							"value": "webapi13",
+							"value": "12345",
 							"type": "string"
 						},
 						{
 							"key": "username",
-							"value": "Hardi",
+							"value": "sweta",
 							"type": "string"
 						}
 					]
@@ -146,7 +146,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44371/api/booking/allBooking",
+					"raw": "https://localhost:44371/api/Booking/allBooking",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -154,7 +154,7 @@
 					"port": "44371",
 					"path": [
 						"api",
-						"booking",
+						"Booking",
 						"allBooking"
 					]
 				}
@@ -169,12 +169,12 @@
 					"basic": [
 						{
 							"key": "password",
-							"value": "webapi13",
+							"value": "12345",
 							"type": "string"
 						},
 						{
 							"key": "username",
-							"value": "Hardi",
+							"value": "sweta",
 							"type": "string"
 						}
 					]
@@ -183,7 +183,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "  {\r\n        \"BookingId\": 7,\r\n        \"RoomId\": 7,\r\n        \"BookingDate\": \"\",\r\n        \"BookingsStatus\": \"Available\"\r\n    }",
+					"raw": "  {\r\n        \"BookingId\": 7,\r\n        \"Room_id\": 7,\r\n        \"BookingDate\": \"\",\r\n        \"StatusOfBooking\": \"Available\"\r\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -191,7 +191,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://localhost:44371/api/booking/updateStatus",
+					"raw": "https://localhost:44371/api/Booking/updateStatus",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -199,7 +199,7 @@
 					"port": "44371",
 					"path": [
 						"api",
-						"booking",
+						"Booking",
 						"updateStatus"
 					]
 				}
@@ -214,12 +214,12 @@
 					"basic": [
 						{
 							"key": "password",
-							"value": "webapi13",
+							"value": "12345",
 							"type": "string"
 						},
 						{
 							"key": "username",
-							"value": "Hardi",
+							"value": "sweta",
 							"type": "string"
 						}
 					]
@@ -228,7 +228,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"BookingId\": 13,\r\n        \"RoomId\": 12,\r\n        \"BookingDate\": \"2021-02-17T00:00:00\",\r\n        \"BookingsStatus\": \"Definitive\"\r\n    }",
+					"raw": "{\r\n        \"BookingId\": 13,\r\n        \"Room_id\": 12,\r\n        \"BookingDate\": \"2021-02-17T00:00:00\",\r\n        \"StatusOfBooking\": \"Definitive\"\r\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -236,7 +236,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://localhost:44371/api/booking/updateBooking",
+					"raw": "https://localhost:44371/api/Booking/updateBooking",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -244,7 +244,7 @@
 					"port": "44371",
 					"path": [
 						"api",
-						"booking",
+						"Booking",
 						"updateBooking"
 					]
 				}
@@ -259,12 +259,12 @@
 					"basic": [
 						{
 							"key": "password",
-							"value": "webapi13",
+							"value": "12345",
 							"type": "string"
 						},
 						{
 							"key": "username",
-							"value": "Hardi",
+							"value": "sweta",
 							"type": "string"
 						}
 					]
@@ -272,7 +272,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44371/api/room/allroom",
+					"raw": "https://localhost:44371/api/Room/allroom",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -280,7 +280,7 @@
 					"port": "44371",
 					"path": [
 						"api",
-						"room",
+						"Room",
 						"allroom"
 					]
 				}
@@ -295,12 +295,12 @@
 					"basic": [
 						{
 							"key": "password",
-							"value": "webapi13",
+							"value": "12345",
 							"type": "string"
 						},
 						{
 							"key": "username",
-							"value": "Hardi",
+							"value": "sweta",
 							"type": "string"
 						}
 					]
@@ -308,7 +308,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44371/api/room/checkRoom/2/2021-01-11",
+					"raw": "https://localhost:44371/api/Room/checkRoom/2/2021-01-11",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -316,7 +316,7 @@
 					"port": "44371",
 					"path": [
 						"api",
-						"room",
+						"Room",
 						"checkRoom",
 						"2",
 						"2021-01-11"
@@ -334,12 +334,12 @@
 					"basic": [
 						{
 							"key": "password",
-							"value": "webapi13",
+							"value": "12345",
 							"type": "string"
 						},
 						{
 							"key": "username",
-							"value": "Hardi",
+							"value": "sweta",
 							"type": "string"
 						}
 					]
@@ -348,7 +348,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"BookingId\": 17,\r\n        \"RoomId\": 3,\r\n        \"BookingDate\": \"2021-02-20T00:00:00\",\r\n        \"BookingsStatus\": \"Definitive\"\r\n    }",
+					"raw": "{\r\n        \"BookingId\": 17,\r\n        \"RoomId\": 3,\r\n        \"BookingDate\": \"2021-02-20T00:00:00\",\r\n        \"StatusOfBooking\": \"Definitive\"\r\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -356,7 +356,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://localhost:44371/api/room/bookRoom",
+					"raw": "https://localhost:44371/api/Room/bookRoom",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -364,7 +364,7 @@
 					"port": "44371",
 					"path": [
 						"api",
-						"room",
+						"Room",
 						"bookRoom"
 					]
 				}
@@ -379,12 +379,12 @@
 					"basic": [
 						{
 							"key": "password",
-							"value": "webapi13",
+							"value": "12345",
 							"type": "string"
 						},
 						{
 							"key": "username",
-							"value": "Hardi",
+							"value": "sweta",
 							"type": "string"
 						}
 					]
@@ -401,7 +401,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://localhost:44371/api/room/createRoom",
+					"raw": "https://localhost:44371/api/Room/createRoom",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -409,7 +409,7 @@
 					"port": "44371",
 					"path": [
 						"api",
-						"room",
+						"Room",
 						"createRoom"
 					]
 				}
