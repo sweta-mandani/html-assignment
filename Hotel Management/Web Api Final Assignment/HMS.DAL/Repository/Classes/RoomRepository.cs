@@ -11,17 +11,17 @@ namespace HMS.DAL.Repository.Classes
 {
     public class RoomRepository : IRoomRepository
     {
-        enum StatusOfBooking
+        enum BookingsStatus
         {
             Optional,
             Definitive,
             Cancelled,
             Deleted
         }
-        private readonly Database.HotelEntities _dbContext;
+        private readonly Database.WebDBEntities _dbContext;
         public RoomRepository()
         {
-            _dbContext = new Database.HotelEntities();
+            _dbContext = new Database.WebDBEntities();
         }
 
         public string bookRoom(Booking model)
@@ -30,16 +30,16 @@ namespace HMS.DAL.Repository.Classes
             {
                 if (model!=null)
                 {
-                    var bookingRecord = _dbContext.Bookings.Where(m => m.Room_id == model.Room_id && DbFunctions.TruncateTime(m.BookingDate) == model.BookingDate).FirstOrDefault();
+                    var bookingRecord = _dbContext.Booking_Detail.Where(m => m.RoomId == model.RoomId && DbFunctions.TruncateTime(m.BookingDate) == model.BookingDate).FirstOrDefault();
                     if (bookingRecord == null)
                     {
-                        Database.Booking booking = new Database.Booking();
-                        booking.Room_id = model.Room_id;
-                        booking.StatusOfBooking = StatusOfBooking.Optional.ToString();
+                        Database.Booking_Detail booking = new Database.Booking_Detail();
+                        booking.RoomId = model.RoomId;
+                        booking.BookingsStatus = BookingsStatus.Optional.ToString();
                         booking.BookingDate = model.BookingDate;
-                        _dbContext.Bookings.Add(booking);
+                        _dbContext.Booking_Detail.Add(booking);
                         _dbContext.SaveChanges();
-                        return "Booking of room no " + model.Room_id + " has been confirmed on " + model.BookingDate + " with optional status";
+                        return "Booking of room no " + model.RoomId + " has been confirmed on " + model.BookingDate + " with optional status";
                     }
                     else
                     {
@@ -60,7 +60,7 @@ namespace HMS.DAL.Repository.Classes
             {
                 if (id != null && date != null)
                 {
-                    var bookingRecord=_dbContext.Bookings.Where(m => m.Room_id==id && DbFunctions.TruncateTime(m.BookingDate)==date).FirstOrDefault();
+                    var bookingRecord=_dbContext.Booking_Detail.Where(m => m.RoomId==id && DbFunctions.TruncateTime(m.BookingDate)==date).FirstOrDefault();
                     if (bookingRecord == null)
                     {
                         return true;
@@ -84,9 +84,9 @@ namespace HMS.DAL.Repository.Classes
             {
                 if (entity != null)
                 {
-                    Mapper.CreateMap<Room, Database.Room>();
-                    Database.Room room = Mapper.Map<Database.Room>(entity);
-                    _dbContext.Rooms.Add(room);
+                    Mapper.CreateMap<Room, Database.Room_Details>();
+                    Database.Room_Details room = Mapper.Map<Database.Room_Details>(entity);
+                    _dbContext.Room_Details.Add(room);
                     _dbContext.SaveChanges();
 
                     return "Room Successfully Added!!";
@@ -102,13 +102,13 @@ namespace HMS.DAL.Repository.Classes
         public List<Room> searchRoom(string city = null, decimal? pincode = null, int? price = null, string category = null)
         {
             
-            var entities = _dbContext.Rooms.ToList();
+            var entities = _dbContext.Room_Details.ToList();
             List<Room> list = new List<Room>();
             if (entities != null)
             {
                 foreach (var item in entities)
                 {
-                    Mapper.CreateMap<Database.Room,Room>();
+                    Mapper.CreateMap<Database.Room_Details,Room>();
                     Room room = Mapper.Map<Room>(item);
                     list.Add(room);
                 }

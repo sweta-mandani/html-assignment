@@ -13,10 +13,10 @@ namespace HMS.DAL.Database
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class HotelEntities : DbContext
+    public partial class WebDBEntities : DbContext
     {
-        public HotelEntities()
-            : base("name=HotelEntities")
+        public WebDBEntities()
+            : base("name=WebDBEntities")
         {
         }
     
@@ -25,8 +25,9 @@ namespace HMS.DAL.Database
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Booking> Bookings { get; set; }
-        public virtual DbSet<HotelM> HotelMs { get; set; }
-        public virtual DbSet<Room> Rooms { get; set; }
+        public virtual DbSet<Booking_Detail> Booking_Detail { get; set; }
+        public virtual DbSet<Hotel_Details> Hotel_Details { get; set; }
+        public virtual DbSet<Room_Details> Room_Details { get; set; }
+        public virtual DbSet<user_detail> user_detail { get; set; }
     }
 }

@@ -16,7 +16,7 @@ namespace HMS.WebApi.Controllers
         private readonly IBookingManager _bookingM;
         public BookingController(IBookingManager bookingM)
         {
-            _bookingM = bookingM;
+            _bookingM= bookingM;
         }
 
         [HttpGet]
@@ -27,21 +27,21 @@ namespace HMS.WebApi.Controllers
         }
 
         [HttpPut]
-        [Route("api/Booking/updateBooking")]
+        [Route("api/booking/updateBooking")]
         public IHttpActionResult changeBooking([FromBody]Booking model)
         {
             return Ok(_bookingM.updateBooking(model));
         }
 
         [HttpPut]
-        [Route("api/Booking/updateStatus")]
+        [Route("api/booking/updateStatus")]
         public IHttpActionResult changeBookingStatus([FromBody]Booking model)
         {
             return Ok(_bookingM.updateBookingStatus(model));
         }
 
         [HttpPut]
-        [Route("api/Booking/deleteBooking")]
+        [Route("api/booking/deleteBooking")]
         public IHttpActionResult deleteBooking([FromBody]Booking model)
         {
             return Ok(_bookingM.deleteBooking(model));

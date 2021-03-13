@@ -16,7 +16,7 @@ namespace HMS.WebApi.Controllers
         private readonly IRoomManager _roomM;
         public RoomController(IRoomManager roomM)
         {
-            _roomM= roomM;
+            _roomM = roomM;
         }
 
         [HttpGet]

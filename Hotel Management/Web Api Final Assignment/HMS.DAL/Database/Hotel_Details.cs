@@ -12,31 +12,30 @@ namespace HMS.DAL.Database
     using System;
     using System.Collections.Generic;
     
-    public partial class HotelM
+    public partial class Hotel_Details
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public HotelM()
+        public Hotel_Details()
         {
-            this.Rooms = new HashSet<Room>();
+            this.Room_Details = new HashSet<Room_Details>();
         }
     
         public int HotelId { get; set; }
         public string HotelName { get; set; }
         public string Address { get; set; }
         public string City { get; set; }
-        public string PinCode { get; set; }
-        public string Contact_Number { get; set; }
-        public string Contact_Person { get; set; }
+        public int PinCode { get; set; }
+        public Nullable<int> ContactNo { get; set; }
+        public string ContactPerson { get; set; }
         public string Website { get; set; }
-        public string FaceBook { get; set; }
-        public string Twitter { get; set; }
-        public string IsActive { get; set; }
-        public System.DateTime Create_date { get; set; }
-        public string Create_By { get; set; }
-        public Nullable<System.DateTime> Updated_Date { get; set; }
-        public string Updated_By { get; set; }
+        public string Facebook { get; set; }
+        public Nullable<int> IsActive { get; set; }
+        public Nullable<System.DateTime> CreatedDate { get; set; }
+        public string CreatedBy { get; set; }
+        public Nullable<System.DateTime> UpdatedDate { get; set; }
+        public string UpdatedBy { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Room> Rooms { get; set; }
+        public virtual ICollection<Room_Details> Room_Details { get; set; }
     }
 }

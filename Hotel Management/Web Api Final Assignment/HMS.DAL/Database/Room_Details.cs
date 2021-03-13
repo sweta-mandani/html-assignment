@@ -12,27 +12,27 @@ namespace HMS.DAL.Database
     using System;
     using System.Collections.Generic;
     
-    public partial class Room
+    public partial class Room_Details
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Room()
+        public Room_Details()
         {
-            this.Bookings = new HashSet<Booking>();
+            this.Booking_Detail = new HashSet<Booking_Detail>();
         }
     
-        public int RoomID { get; set; }
+        public int RoomId { get; set; }
+        public int HotelId { get; set; }
         public string RoomName { get; set; }
         public string RoomCategory { get; set; }
-        public int RoomPrice { get; set; }
-        public bool IsActive { get; set; }
+        public Nullable<decimal> RoomPrice { get; set; }
+        public Nullable<int> IsActive { get; set; }
         public Nullable<System.DateTime> CreatedDate { get; set; }
         public string CreatedBy { get; set; }
         public Nullable<System.DateTime> UpdatedDate { get; set; }
         public string UpdatedBy { get; set; }
-        public Nullable<int> Hotel_id { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Booking> Bookings { get; set; }
-        public virtual HotelM HotelM { get; set; }
+        public virtual ICollection<Booking_Detail> Booking_Detail { get; set; }
+        public virtual Hotel_Details Hotel_Details { get; set; }
     }
 }

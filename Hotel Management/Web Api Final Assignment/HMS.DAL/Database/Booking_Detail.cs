@@ -12,13 +12,13 @@ namespace HMS.DAL.Database
     using System;
     using System.Collections.Generic;
     
-    public partial class Booking
+    public partial class Booking_Detail
     {
         public int BookingId { get; set; }
-        public System.DateTime BookingDate { get; set; }
-        public Nullable<int> Room_id { get; set; }
-        public string StatusOfBooking { get; set; }
+        public int RoomId { get; set; }
+        public Nullable<System.DateTime> BookingDate { get; set; }
+        public string BookingsStatus { get; set; }
     
-        public virtual Room Room { get; set; }
+        public virtual Room_Details Room_Details { get; set; }
     }
 }

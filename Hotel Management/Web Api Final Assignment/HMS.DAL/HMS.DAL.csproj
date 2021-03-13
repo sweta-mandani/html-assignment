@@ -57,28 +57,31 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Database\Booking_Detail.cs">
-      <DependentUpon>DataBaseContext.tt</DependentUpon>
+      <DependentUpon>HotelModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Database\DataBaseContext.Context.cs">
+    <Compile Include="Database\HotelModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DataBaseContext.Context.tt</DependentUpon>
+      <DependentUpon>HotelModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Database\DataBaseContext.cs">
+    <Compile Include="Database\HotelModel.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DataBaseContext.tt</DependentUpon>
+      <DependentUpon>HotelModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Database\DataBaseContext.Designer.cs">
+    <Compile Include="Database\HotelModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DataBaseContext.edmx</DependentUpon>
+      <DependentUpon>HotelModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Database\Hotel_Details.cs">
-      <DependentUpon>DataBaseContext.tt</DependentUpon>
+      <DependentUpon>HotelModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Database\Room_Details.cs">
-      <DependentUpon>DataBaseContext.tt</DependentUpon>
+      <DependentUpon>HotelModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\user_detail.cs">
+      <DependentUpon>HotelModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\Classes\BookingRepository.cs" />
@@ -96,12 +99,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-    <EntityDeploy Include="Database\DataBaseContext.edmx">
+    <EntityDeploy Include="Database\HotelModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>DataBaseContext.Designer.cs</LastGenOutput>
+      <LastGenOutput>HotelModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Database\DataBaseContext.edmx.diagram">
-      <DependentUpon>DataBaseContext.edmx</DependentUpon>
+    <None Include="Database\HotelModel.edmx.diagram">
+      <DependentUpon>HotelModel.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
@@ -109,15 +112,15 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Database\DataBaseContext.Context.tt">
+    <Content Include="Database\HotelModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DataBaseContext.edmx</DependentUpon>
-      <LastGenOutput>DataBaseContext.Context.cs</LastGenOutput>
+      <DependentUpon>HotelModel.edmx</DependentUpon>
+      <LastGenOutput>HotelModel.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Database\DataBaseContext.tt">
+    <Content Include="Database\HotelModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DataBaseContext.edmx</DependentUpon>
-      <LastGenOutput>DataBaseContext.cs</LastGenOutput>
+      <DependentUpon>HotelModel.edmx</DependentUpon>
+      <LastGenOutput>HotelModel.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
