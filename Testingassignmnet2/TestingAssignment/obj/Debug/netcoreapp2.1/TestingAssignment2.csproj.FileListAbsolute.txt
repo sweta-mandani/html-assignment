@@ -1,0 +1,11 @@
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment\bin\Debug\netcoreapp2.1\TestingAssignment2.deps.json
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment\bin\Debug\netcoreapp2.1\TestingAssignment2.runtimeconfig.json
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment\bin\Debug\netcoreapp2.1\TestingAssignment2.runtimeconfig.dev.json
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment\bin\Debug\netcoreapp2.1\TestingAssignment2.dll
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment\bin\Debug\netcoreapp2.1\TestingAssignment2.pdb
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment\obj\Debug\netcoreapp2.1\TestingAssignment2.csprojAssemblyReference.cache
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment\obj\Debug\netcoreapp2.1\TestingAssignment2.csproj.CoreCompileInputs.cache
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment\obj\Debug\netcoreapp2.1\TestingAssignment2.AssemblyInfoInputs.cache
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment\obj\Debug\netcoreapp2.1\TestingAssignment2.AssemblyInfo.cs
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment\obj\Debug\netcoreapp2.1\TestingAssignment2.dll
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment\obj\Debug\netcoreapp2.1\TestingAssignment2.pdb

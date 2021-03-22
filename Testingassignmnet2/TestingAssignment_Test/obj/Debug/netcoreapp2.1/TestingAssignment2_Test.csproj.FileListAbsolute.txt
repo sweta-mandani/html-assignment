@@ -1,0 +1,17 @@
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment_Test\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment_Test\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment_Test\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment_Test\bin\Debug\netcoreapp2.1\TestingAssignment2_Test.deps.json
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment_Test\bin\Debug\netcoreapp2.1\TestingAssignment2_Test.runtimeconfig.json
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment_Test\bin\Debug\netcoreapp2.1\TestingAssignment2_Test.runtimeconfig.dev.json
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment_Test\bin\Debug\netcoreapp2.1\TestingAssignment2_Test.dll
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment_Test\bin\Debug\netcoreapp2.1\TestingAssignment2_Test.pdb
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment_Test\bin\Debug\netcoreapp2.1\TestingAssignment2.dll
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment_Test\bin\Debug\netcoreapp2.1\TestingAssignment2.pdb
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment_Test\obj\Debug\netcoreapp2.1\TestingAssignment2_Test.csprojAssemblyReference.cache
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment_Test\obj\Debug\netcoreapp2.1\TestingAssignment2_Test.csproj.CoreCompileInputs.cache
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment_Test\obj\Debug\netcoreapp2.1\TestingAssignment2_Test.AssemblyInfoInputs.cache
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment_Test\obj\Debug\netcoreapp2.1\TestingAssignment2_Test.AssemblyInfo.cs
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment_Test\obj\Debug\netcoreapp2.1\TestingAssignment2_Test.csproj.CopyComplete
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment_Test\obj\Debug\netcoreapp2.1\TestingAssignment2_Test.dll
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Testingassignmnet2\TestingAssignment_Test\obj\Debug\netcoreapp2.1\TestingAssignment2_Test.pdb

@@ -6,29 +6,21 @@ namespace TestingAssignment_Test
 {
     public class UnitTest1
     {
+
+        // lowercase characters converted to uppercase.
         [Fact]
-        public void Test_WordCount()
+        public void Test_AddUpperCase()
         {
             //Arrange
             var input = "sahil";
-            var expectedValue = 2;
+            var expectedValue = "SAHIL";
             // Act
-            var result = AssignmentBLL.WordCount(input);
+            var result = AssignmentBLL.AddUpperCase(input);
             //Assert
             Assert.Equal(expectedValue, result);
         }
 
-        [Fact]
-        public void Test_NumberValidation()
-        {
-            //Arrange
-            var input = "123";
-            var expectedValue = true;
-            // Act
-            var result = AssignmentBLL.NumberValidation(input);
-            //Assert
-            Assert.Equal(expectedValue, result);
-        }
+        //uppercase characters converted to     lowercase and vice versa.
 
         [Fact]
         public void Test_AddLowerCase()
@@ -42,18 +34,23 @@ namespace TestingAssignment_Test
             Assert.Equal(expectedValue, result);
         }
 
+        //string to title case 
+
         [Fact]
-        public void Test_AddUpperCase()
+        public void Task_TitleCase()
         {
             //Arrange
-            var input = "sahil";
-            var expectedValue = "SAHIL";
-            // Act
-            var result = AssignmentBLL.AddUpperCase(input);
+            var str = "tcs digital";
+            var expectedString = "Tcs Digital";
+
+            //Act
+            var result = AssignmentBLL.TitleCase(str);
+
             //Assert
-            Assert.Equal(expectedValue, result);
+            Assert.Equal(expectedString, result);
         }
 
+        //lower case or not
         [Fact]
         public void Test_CheckLowerCase()
         {
@@ -65,6 +62,36 @@ namespace TestingAssignment_Test
             //Assert
             Assert.Equal(expectedValue, result);
         }
+
+
+        //first character have upper case and the rest lower case.
+        [Fact]
+        public void Test_FirstUpperLetter()
+        {
+            //Arrange
+            var input = "sweta";
+            var expectedValue = "Sweta";
+            // Act
+            var result = AssignmentBLL.FirstUpperLetter(input);
+            //Assert
+            Assert.Equal(expectedValue, result);
+        }
+
+        //upper case or not
+
+        [Fact]
+        public void Test_NumberValidation()
+        {
+            //Arrange
+            var input = "123";
+            var expectedValue = true;
+            // Act
+            var result = AssignmentBLL.NumberValidation(input);
+            //Assert
+            Assert.Equal(expectedValue, result);
+        }
+
+        //valid numeric value or not.
 
         [Fact]
         public void Test_CheckUpperCase()
@@ -78,30 +105,35 @@ namespace TestingAssignment_Test
             Assert.Equal(expectedValue, result);
         }
 
-        [Fact]
-        public void Test_FirstUpperLetter()
-        {
-            //Arrange
-            var input = "sweta";
-            var expectedValue = "SWETA";
-            // Act
-            var result = AssignmentBLL.FirstUpperLetter(input);
-            //Assert
-            Assert.Equal(expectedValue, result);
-        }
+        //remove the last character from given the string
 
         [Fact]
         public void Test_LastCharacterRemove()
         {
             //Arrange
             var input = "sweta";
-            var expectedValue = "se";
+            var expectedValue = "swet";
             // Act
             var result = AssignmentBLL.LastCharacterRemove(input);
             //Assert
             Assert.Equal(expectedValue, result);
         }
 
+        //    word count from an input string.
+        [Fact]
+        public void Test_WordCount()
+        {
+
+            //Arrange
+            var input = "sweta";
+            var expectedValue = 1;
+            // Act
+            var result = AssignmentBLL.WordCount(input);
+            //Assert
+            Assert.Equal(expectedValue, result);
+        }
+
+        // input string to integer.
         [Fact]
         public void Test_StringToInt()
         {
@@ -113,5 +145,7 @@ namespace TestingAssignment_Test
             //Assert
             Assert.Equal(expectedValue, result);
         }
+
+
     }
 }

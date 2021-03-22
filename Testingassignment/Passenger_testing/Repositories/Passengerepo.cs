@@ -11,10 +11,10 @@ namespace CLPM.DAL.Repository.Classes
 {
     public class Passengerepo : IPassenger
     {
-        private readonly passengerEntities _dbContext;
+        private readonly passengerEntities1 _dbContext;
         public Passengerepo()
         {
-            _dbContext = new passengerEntities();
+            _dbContext = new passengerEntities1();
         }
         public bool PassengerDelete(string Passenger_number)
         {

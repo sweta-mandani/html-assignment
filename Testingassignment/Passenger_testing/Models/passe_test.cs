@@ -11,11 +11,9 @@ namespace Passenger_testing.Models
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-
+    
     public partial class passe_test
     {
-        [Key]
         public int Passenger_number { get; set; }
         public string Firstname { get; set; }
         public string LastName { get; set; }
