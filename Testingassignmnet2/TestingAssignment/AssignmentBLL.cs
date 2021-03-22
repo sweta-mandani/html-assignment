@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
@@ -70,6 +70,7 @@ namespace TestingAssignment
             }
             return str;
         }
+<<<<<<< HEAD
 
         //valid numeric value or not.
         public static bool NumberValidation(this String input)
@@ -79,6 +80,17 @@ namespace TestingAssignment
             return isNumeric;
         }
 
+=======
+
+        //valid numeric value or not.
+        public static bool NumberValidation(this String input)
+        {
+            int n;
+            bool isNumeric = int.TryParse(input, out n);
+            return isNumeric;
+        }
+
+>>>>>>> f424c21c6d4bb9146d5efc073f740de34d4c5987
         //remove the last character from given the string
         public static String LastCharacterRemove(this String str)
         {
@@ -86,6 +98,7 @@ namespace TestingAssignment
                 return null;
             else
                 return str.Remove(str.Length - 1);
+<<<<<<< HEAD
         }
 
 
@@ -100,6 +113,22 @@ namespace TestingAssignment
             return words.Length;
         }
 
+=======
+        }
+
+
+        //    word count from an input string.
+        public static int WordCount(this String input)
+        {
+
+
+            int ln = input.Length;
+            String[] words = input.Split(' ');
+
+            return words.Length;
+        }
+
+>>>>>>> f424c21c6d4bb9146d5efc073f740de34d4c5987
         // input string to integer.
         public static int StringToInt(this String input)
         {
@@ -110,3 +139,4 @@ namespace TestingAssignment
         }
     }
 }
+
