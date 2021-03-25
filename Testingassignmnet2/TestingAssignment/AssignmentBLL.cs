@@ -61,7 +61,7 @@ namespace TestingAssignment
             return str.ToUpper();
         }
         //upper case or not
-        public static bool CheckUpperCase(this String str)
+        public static bool CheckUpperCase(String str)
         {
             foreach (char input in str)
             {
@@ -70,10 +70,10 @@ namespace TestingAssignment
             }
             return str;
         }
-<<<<<<< HEAD
+
 
         //valid numeric value or not.
-        public static bool NumberValidation(this String input)
+        public static bool NumberValidation(String input)
         {
             int n;
             bool isNumeric = int.TryParse(input, out n);
@@ -83,22 +83,22 @@ namespace TestingAssignment
 =======
 
         //valid numeric value or not.
-        public static bool NumberValidation(this String input)
+        public static bool NumberValidation(String input)
         {
             int n;
             bool isNumeric = int.TryParse(input, out n);
             return isNumeric;
         }
 
->>>>>>> f424c21c6d4bb9146d5efc073f740de34d4c5987
+
         //remove the last character from given the string
-        public static String LastCharacterRemove(this String str)
+        public static String LastCharacterRemove(String str)
         {
             if (str == null)
                 return null;
             else
                 return str.Remove(str.Length - 1);
-<<<<<<< HEAD
+
         }
 
 
@@ -113,7 +113,7 @@ namespace TestingAssignment
             return words.Length;
         }
 
-=======
+
         }
 
 
@@ -128,9 +128,9 @@ namespace TestingAssignment
             return words.Length;
         }
 
->>>>>>> f424c21c6d4bb9146d5efc073f740de34d4c5987
+
         // input string to integer.
-        public static int StringToInt(this String input)
+        public static int StringToInt(String input)
         {
             int x = 0;
 
