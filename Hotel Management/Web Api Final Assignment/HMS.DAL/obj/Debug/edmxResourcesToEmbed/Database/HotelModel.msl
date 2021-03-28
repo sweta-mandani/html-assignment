@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+<<<<<<< HEAD
   <EntityContainerMapping StorageEntityContainer="HotelModelStoreContainer" CdmEntityContainer="HotelEntities">
     <EntitySetMapping Name="Bookings">
       <EntityTypeMapping TypeName="HotelModel.Booking">
@@ -14,11 +15,28 @@
     <EntitySetMapping Name="HotelMs">
       <EntityTypeMapping TypeName="HotelModel.HotelM">
         <MappingFragment StoreEntitySet="HotelM">
+=======
+  <EntityContainerMapping StorageEntityContainer="WebDBModelStoreContainer" CdmEntityContainer="WebDBEntities">
+    <EntitySetMapping Name="Booking_Detail">
+      <EntityTypeMapping TypeName="WebDBModel.Booking_Detail">
+        <MappingFragment StoreEntitySet="Booking_Detail">
+          <ScalarProperty Name="BookingId" ColumnName="BookingId" />
+          <ScalarProperty Name="RoomId" ColumnName="RoomId" />
+          <ScalarProperty Name="BookingDate" ColumnName="BookingDate" />
+          <ScalarProperty Name="BookingsStatus" ColumnName="BookingsStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Hotel_Details">
+      <EntityTypeMapping TypeName="WebDBModel.Hotel_Details">
+        <MappingFragment StoreEntitySet="Hotel_Details">
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
           <ScalarProperty Name="HotelId" ColumnName="HotelId" />
           <ScalarProperty Name="HotelName" ColumnName="HotelName" />
           <ScalarProperty Name="Address" ColumnName="Address" />
           <ScalarProperty Name="City" ColumnName="City" />
           <ScalarProperty Name="PinCode" ColumnName="PinCode" />
+<<<<<<< HEAD
           <ScalarProperty Name="Contact_Number" ColumnName="Contact Number" />
           <ScalarProperty Name="Contact_Person" ColumnName="Contact Person" />
           <ScalarProperty Name="Website" ColumnName="Website" />
@@ -36,6 +54,25 @@
       <EntityTypeMapping TypeName="HotelModel.Room">
         <MappingFragment StoreEntitySet="Room">
           <ScalarProperty Name="RoomID" ColumnName="RoomID" />
+=======
+          <ScalarProperty Name="ContactNo" ColumnName="ContactNo" />
+          <ScalarProperty Name="ContactPerson" ColumnName="ContactPerson" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="Facebook" ColumnName="Facebook" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Room_Details">
+      <EntityTypeMapping TypeName="WebDBModel.Room_Details">
+        <MappingFragment StoreEntitySet="Room_Details">
+          <ScalarProperty Name="RoomId" ColumnName="RoomId" />
+          <ScalarProperty Name="HotelId" ColumnName="HotelId" />
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
           <ScalarProperty Name="RoomName" ColumnName="RoomName" />
           <ScalarProperty Name="RoomCategory" ColumnName="RoomCategory" />
           <ScalarProperty Name="RoomPrice" ColumnName="RoomPrice" />
@@ -44,7 +81,20 @@
           <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
           <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
           <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+<<<<<<< HEAD
           <ScalarProperty Name="Hotel_id" ColumnName="Hotel_id" />
+=======
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="user_detail">
+      <EntityTypeMapping TypeName="WebDBModel.user_detail">
+        <MappingFragment StoreEntitySet="user_detail">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="LoginName" ColumnName="LoginName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

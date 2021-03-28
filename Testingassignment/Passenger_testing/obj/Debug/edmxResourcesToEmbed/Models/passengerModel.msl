@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="passengerModelStoreContainer" CdmEntityContainer="passengerEntities">
+    <EntitySetMapping Name="passe_test">
+      <EntityTypeMapping TypeName="passengerModel.passe_test">
+        <MappingFragment StoreEntitySet="passe_test">
+          <ScalarProperty Name="Passenger_number" ColumnName="Passenger_number" />
+          <ScalarProperty Name="Firstname" ColumnName="Firstname" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Phonenumber" ColumnName="Phonenumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

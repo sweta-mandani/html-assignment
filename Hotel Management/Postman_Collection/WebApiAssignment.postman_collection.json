@@ -13,12 +13,20 @@
 					"basic": [
 						{
 							"key": "password",
+<<<<<<< HEAD
 							"value": "webapi13",
+=======
+							"value": "12345",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						},
 						{
 							"key": "username",
+<<<<<<< HEAD
 							"value": "Hardi",
+=======
+							"value": "sweta",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						}
 					]
@@ -26,7 +34,11 @@
 				"method": "GET",
 				"header": [],
 				"url": {
+<<<<<<< HEAD
 					"raw": "https://localhost:44371/api/hotel/AllHotels",
+=======
+					"raw": "https://localhost:44371/api/Hotel/AllHotels",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -34,7 +46,11 @@
 					"port": "44371",
 					"path": [
 						"api",
+<<<<<<< HEAD
 						"hotel",
+=======
+						"Hotel",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 						"AllHotels"
 					]
 				},
@@ -50,12 +66,20 @@
 					"basic": [
 						{
 							"key": "password",
+<<<<<<< HEAD
 							"value": "webapi13",
+=======
+							"value": "12345",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						},
 						{
 							"key": "username",
+<<<<<<< HEAD
 							"value": "Hardi",
+=======
+							"value": "sweta",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						}
 					]
@@ -63,7 +87,11 @@
 				"method": "GET",
 				"header": [],
 				"url": {
+<<<<<<< HEAD
 					"raw": "https://localhost:44371/api/hotel/findHotel/2",
+=======
+					"raw": "https://localhost:44371/api/Hotel/findHotel/2",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -71,7 +99,11 @@
 					"port": "44371",
 					"path": [
 						"api",
+<<<<<<< HEAD
 						"hotel",
+=======
+						"Hotel",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 						"findHotel",
 						"2"
 					]
@@ -88,12 +120,20 @@
 					"basic": [
 						{
 							"key": "password",
+<<<<<<< HEAD
 							"value": "webapi13",
+=======
+							"value": "12345",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						},
 						{
 							"key": "username",
+<<<<<<< HEAD
 							"value": "Hardi",
+=======
+							"value": "sweta",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						}
 					]
@@ -102,7 +142,11 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
+<<<<<<< HEAD
 					"raw": "{\r\n        \"BookingId\": 5,\r\n        \"RoomId\": 5,\r\n        \"BookingDate\": \"2021-01-10T00:00:00\",\r\n        \"BookingsStatus\": \"Delete\"\r\n    }",
+=======
+					"raw": "{\r\n        \"BookingId\": 5,\r\n        \"Room_id\": 5,\r\n        \"BookingDate\": \"2021-01-10T00:00:00\",\r\n        \"StatusOfBooking\": \"Delete\"\r\n    }",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 					"options": {
 						"raw": {
 							"language": "json"
@@ -110,7 +154,11 @@
 					}
 				},
 				"url": {
+<<<<<<< HEAD
 					"raw": "https://localhost:44371/api/booking/updateStatus",
+=======
+					"raw": "https://localhost:44371/api/Booking/updateStatus",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -118,7 +166,11 @@
 					"port": "44371",
 					"path": [
 						"api",
+<<<<<<< HEAD
 						"booking",
+=======
+						"Booking",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 						"updateStatus"
 					]
 				}
@@ -133,12 +185,20 @@
 					"basic": [
 						{
 							"key": "password",
+<<<<<<< HEAD
 							"value": "webapi13",
+=======
+							"value": "12345",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						},
 						{
 							"key": "username",
+<<<<<<< HEAD
 							"value": "Hardi",
+=======
+							"value": "sweta",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						}
 					]
@@ -146,7 +206,11 @@
 				"method": "GET",
 				"header": [],
 				"url": {
+<<<<<<< HEAD
 					"raw": "https://localhost:44371/api/booking/allBooking",
+=======
+					"raw": "https://localhost:44371/api/Booking/allBooking",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -154,7 +218,11 @@
 					"port": "44371",
 					"path": [
 						"api",
+<<<<<<< HEAD
 						"booking",
+=======
+						"Booking",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 						"allBooking"
 					]
 				}
@@ -169,12 +237,20 @@
 					"basic": [
 						{
 							"key": "password",
+<<<<<<< HEAD
 							"value": "webapi13",
+=======
+							"value": "12345",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						},
 						{
 							"key": "username",
+<<<<<<< HEAD
 							"value": "Hardi",
+=======
+							"value": "sweta",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						}
 					]
@@ -183,7 +259,11 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
+<<<<<<< HEAD
 					"raw": "  {\r\n        \"BookingId\": 7,\r\n        \"RoomId\": 7,\r\n        \"BookingDate\": \"\",\r\n        \"BookingsStatus\": \"Available\"\r\n    }",
+=======
+					"raw": "  {\r\n        \"BookingId\": 7,\r\n        \"Room_id\": 7,\r\n        \"BookingDate\": \"\",\r\n        \"StatusOfBooking\": \"Available\"\r\n    }",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 					"options": {
 						"raw": {
 							"language": "json"
@@ -191,7 +271,11 @@
 					}
 				},
 				"url": {
+<<<<<<< HEAD
 					"raw": "https://localhost:44371/api/booking/updateStatus",
+=======
+					"raw": "https://localhost:44371/api/Booking/updateStatus",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -199,7 +283,11 @@
 					"port": "44371",
 					"path": [
 						"api",
+<<<<<<< HEAD
 						"booking",
+=======
+						"Booking",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 						"updateStatus"
 					]
 				}
@@ -214,12 +302,20 @@
 					"basic": [
 						{
 							"key": "password",
+<<<<<<< HEAD
 							"value": "webapi13",
+=======
+							"value": "12345",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						},
 						{
 							"key": "username",
+<<<<<<< HEAD
 							"value": "Hardi",
+=======
+							"value": "sweta",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						}
 					]
@@ -228,7 +324,11 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
+<<<<<<< HEAD
 					"raw": "{\r\n        \"BookingId\": 13,\r\n        \"RoomId\": 12,\r\n        \"BookingDate\": \"2021-02-17T00:00:00\",\r\n        \"BookingsStatus\": \"Definitive\"\r\n    }",
+=======
+					"raw": "{\r\n        \"BookingId\": 13,\r\n        \"Room_id\": 12,\r\n        \"BookingDate\": \"2021-02-17T00:00:00\",\r\n        \"StatusOfBooking\": \"Definitive\"\r\n    }",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 					"options": {
 						"raw": {
 							"language": "json"
@@ -236,7 +336,11 @@
 					}
 				},
 				"url": {
+<<<<<<< HEAD
 					"raw": "https://localhost:44371/api/booking/updateBooking",
+=======
+					"raw": "https://localhost:44371/api/Booking/updateBooking",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -244,7 +348,11 @@
 					"port": "44371",
 					"path": [
 						"api",
+<<<<<<< HEAD
 						"booking",
+=======
+						"Booking",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 						"updateBooking"
 					]
 				}
@@ -259,12 +367,20 @@
 					"basic": [
 						{
 							"key": "password",
+<<<<<<< HEAD
 							"value": "webapi13",
+=======
+							"value": "12345",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						},
 						{
 							"key": "username",
+<<<<<<< HEAD
 							"value": "Hardi",
+=======
+							"value": "sweta",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						}
 					]
@@ -272,7 +388,11 @@
 				"method": "GET",
 				"header": [],
 				"url": {
+<<<<<<< HEAD
 					"raw": "https://localhost:44371/api/room/allroom",
+=======
+					"raw": "https://localhost:44371/api/Room/allroom",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -280,7 +400,11 @@
 					"port": "44371",
 					"path": [
 						"api",
+<<<<<<< HEAD
 						"room",
+=======
+						"Room",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 						"allroom"
 					]
 				}
@@ -295,12 +419,20 @@
 					"basic": [
 						{
 							"key": "password",
+<<<<<<< HEAD
 							"value": "webapi13",
+=======
+							"value": "12345",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						},
 						{
 							"key": "username",
+<<<<<<< HEAD
 							"value": "Hardi",
+=======
+							"value": "sweta",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						}
 					]
@@ -308,7 +440,11 @@
 				"method": "GET",
 				"header": [],
 				"url": {
+<<<<<<< HEAD
 					"raw": "https://localhost:44371/api/room/checkRoom/2/2021-01-11",
+=======
+					"raw": "https://localhost:44371/api/Room/checkRoom/2/2021-01-11",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -316,7 +452,11 @@
 					"port": "44371",
 					"path": [
 						"api",
+<<<<<<< HEAD
 						"room",
+=======
+						"Room",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 						"checkRoom",
 						"2",
 						"2021-01-11"
@@ -334,12 +474,20 @@
 					"basic": [
 						{
 							"key": "password",
+<<<<<<< HEAD
 							"value": "webapi13",
+=======
+							"value": "12345",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						},
 						{
 							"key": "username",
+<<<<<<< HEAD
 							"value": "Hardi",
+=======
+							"value": "sweta",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						}
 					]
@@ -348,7 +496,11 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
+<<<<<<< HEAD
 					"raw": "{\r\n        \"BookingId\": 17,\r\n        \"RoomId\": 3,\r\n        \"BookingDate\": \"2021-02-20T00:00:00\",\r\n        \"BookingsStatus\": \"Definitive\"\r\n    }",
+=======
+					"raw": "{\r\n        \"BookingId\": 17,\r\n        \"RoomId\": 3,\r\n        \"BookingDate\": \"2021-02-20T00:00:00\",\r\n        \"StatusOfBooking\": \"Definitive\"\r\n    }",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 					"options": {
 						"raw": {
 							"language": "json"
@@ -356,7 +508,11 @@
 					}
 				},
 				"url": {
+<<<<<<< HEAD
 					"raw": "https://localhost:44371/api/room/bookRoom",
+=======
+					"raw": "https://localhost:44371/api/Room/bookRoom",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -364,7 +520,11 @@
 					"port": "44371",
 					"path": [
 						"api",
+<<<<<<< HEAD
 						"room",
+=======
+						"Room",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 						"bookRoom"
 					]
 				}
@@ -379,12 +539,20 @@
 					"basic": [
 						{
 							"key": "password",
+<<<<<<< HEAD
 							"value": "webapi13",
+=======
+							"value": "12345",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						},
 						{
 							"key": "username",
+<<<<<<< HEAD
 							"value": "Hardi",
+=======
+							"value": "sweta",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 							"type": "string"
 						}
 					]
@@ -401,7 +569,11 @@
 					}
 				},
 				"url": {
+<<<<<<< HEAD
 					"raw": "https://localhost:44371/api/room/createRoom",
+=======
+					"raw": "https://localhost:44371/api/Room/createRoom",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -409,7 +581,11 @@
 					"port": "44371",
 					"path": [
 						"api",
+<<<<<<< HEAD
 						"room",
+=======
+						"Room",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 						"createRoom"
 					]
 				}

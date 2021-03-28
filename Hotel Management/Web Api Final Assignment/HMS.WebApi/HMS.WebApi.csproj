@@ -14,7 +14,11 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>HMS.WebApi</RootNamespace>
     <AssemblyName>HMS.WebApi</AssemblyName>
+<<<<<<< HEAD:Hotel Management/Web Api Final Assignment/HMS.WebApi/HMS.WebApi.csproj
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+=======
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812:Hotel Management/Hotel Management/Hotel Management.csproj
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />

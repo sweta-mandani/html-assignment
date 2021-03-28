@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
@@ -7,13 +7,29 @@ namespace TestingAssignment
 {
     public static class AssignmentBLL
     {
+<<<<<<< HEAD
 
         // 1. lowercase characters converted to uppercase.
         public static String AddUpperCase(this String input)
-        {
-            StringBuilder str = new StringBuilder(input);
-            int ln = str.Length;
+=======
 
+        // lowercase characters converted to uppercase.
+        public static String AddUpperCase(String str)
+        {
+
+            str = str.ToUpper();
+            return str;
+        }
+
+
+        //uppercase characters converted to     lowercase and vice versa.
+        public static String AddLowerCase(String str)
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
+        {
+            str = str.ToLower();
+            return str;
+
+<<<<<<< HEAD
             for (int i = 0; i < ln; i++)
             {
                 if (str[i] >= 'a' && str[i] <= 'z')
@@ -47,17 +63,21 @@ namespace TestingAssignment
         public static bool CheckLowerCase(this String str)
         {
             int ln = str.Length;
-
-            for (int i = 0; i < ln; i++)
-            {
-                if (str[i] >= 'A' && str[i] <= 'Z')
-                {
-                    return false;
-                }
-            }
-            return true;
+=======
         }
 
+        //string to title case 
+        public static string TitleCase(string str)
+        {
+           str = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(str);
+            return str;
+        }
+
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
+
+        //lower case or not
+
+<<<<<<< HEAD
         // 5.first character have upper case and the rest lower case.
         public static string FirstUpperLetter(this string str)
         {
@@ -73,12 +93,15 @@ namespace TestingAssignment
 
         //6.upper case or not
         public static bool CheckUpperCase(this String str)
+=======
+        public static bool CheckLowerCase(this String str)
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
         {
             int ln = str.Length;
 
             for (int i = 0; i < ln; i++)
             {
-                if (str[i] >= 'a' && str[i] <= 'z')
+                if (str[i] >= 'A' && str[i] <= 'Z')
                 {
                     return false;
                 }
@@ -86,7 +109,15 @@ namespace TestingAssignment
             return true;
         }
 
+<<<<<<< HEAD
         //7.valid numeric value or not.
+=======
+        //first character have upper case and the rest lower case.
+        public static string FirstUpperLetter(String str)
+        {
+            if (str == null)
+                return null;
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
 
         public static bool NumberValidation(this String input)
         {
@@ -94,16 +125,80 @@ namespace TestingAssignment
             bool isNumeric = int.TryParse(input, out n);
             return isNumeric;
         }
+        //upper case or not
+        public static bool CheckUpperCase(String str)
+        {
+            foreach (char input in str)
+            {
+                if (Char.IsUpper(input))
+                    return str;
+            }
+            return str;
+        }
 
+
+<<<<<<< HEAD
         //8.remove the last character from given the string
         public static String LastCharacterRemove(this String str)
+=======
+        //valid numeric value or not.
+        public static bool NumberValidation(String input)
+        {
+            int n;
+            bool isNumeric = int.TryParse(input, out n);
+            return isNumeric;
+        }
+
+=======
+
+        //valid numeric value or not.
+        public static bool NumberValidation(String input)
+        {
+            int n;
+            bool isNumeric = int.TryParse(input, out n);
+            return isNumeric;
+        }
+
+
+        //remove the last character from given the string
+        public static String LastCharacterRemove(String str)
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
         {
             if (str == null)
                 return null;
             else
-                return str.Substring(0, str.Length - 1);
+                return str.Remove(str.Length - 1);
+
         }
 
+
+        //    word count from an input string.
+        public static int WordCount(this String input)
+        {
+
+
+            int ln = input.Length;
+            String[] words = input.Split(' ');
+
+            return words.Length;
+        }
+
+
+        }
+
+
+        //    word count from an input string.
+        public static int WordCount(this String input)
+        {
+
+
+            int ln = input.Length;
+            String[] words = input.Split(' ');
+
+            return words.Length;
+        }
+
+<<<<<<< HEAD
         //9-word count from an input string.
         public static int WordCount(this String input)
         {
@@ -117,6 +212,11 @@ namespace TestingAssignment
         //10.input string to integer.
 
         public static int StringToInt(this String input)
+=======
+
+        // input string to integer.
+        public static int StringToInt(String input)
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
         {
             int x = 0;
 
@@ -125,3 +225,4 @@ namespace TestingAssignment
         }
     }
 }
+

@@ -1,0 +1,281 @@
+{
+	"info": {
+		"_postman_id": "3caddb1a-a553-42e5-a3c3-f30830e6065a",
+		"name": "ALLHotel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44371/api/hotel/AllHotels",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "12345",
+						"username": "sweta"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:44371/api/hotel/getHotel/2",
+				"description": "ALLHotel"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44371/api/hotel/getHotel/2",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "12345",
+						"username": "sweta"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:44371/api/hotel/getHotel/2",
+				"description": "GETHotel By Id"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44371/api/hotel/createHotel",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "12345",
+						"username": "sweta"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"HotelId\":7,\"HotelName\":\"5432 star\",\"Address\":\"Ahmadabad\",\"City\":\"Mumbai\",\"PinCode\":12346,\"ContactNo\":987654320,\"ContactPerson\":\"shyam\",\"Website\":\"https://www.tajhotels.com/\",\"Facebook\":null,\"IsActive\":1,\"CreatedDate\":null,\"CreatedBy\":null,\"UpdatedDate\":null,\"UpdatedBy\":null}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:44371/api/room/allRoom"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44371/api/room/allRoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "12345",
+						"username": "sweta"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:44371/api/room/allRoom"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44371/api/room/createRoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "12345",
+						"username": "sweta"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"RoomId\": 13,\r\n        \"HotelId\": 1,\r\n        \"RoomName\": \"A101\",\r\n        \"RoomCategory\": \"1\",\r\n        \"RoomPrice\": 1899.00,\r\n        \"IsActive\": 1,\r\n        \"CreatedDate\": null,\r\n        \"CreatedBy\": null,\r\n        \"UpdatedDate\": null,\r\n        \"UpdatedBy\": null\r\n    }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:44371/api/room/createRoom"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44371/api/room/checkRoom/15/03-02-2022",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "12345",
+						"username": "sweta"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:44371/api/room/checkRoom/15/03-02-2022"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44371/api/Booking/allBooking",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "12345",
+						"username": "sweta"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:44371/api/Booking/allBooking"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44371/api/booking/updateBooking",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "12345",
+						"username": "sweta"
+					}
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"BookingId\": 5,\r\n        \"RoomId\": 5,\r\n        \"BookingDate\": \"2021-02-10T00:00:00\",\r\n        \"BookingsStatus\": \"Delete\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:44371/api/booking/updateBooking"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44371/api/booking/updateStatus",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "12345",
+						"username": "sweta"
+					}
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"BookingId\": 8,\r\n        \"RoomId\": 8,\r\n        \"BookingDate\": null,\r\n        \"BookingsStatus\": \"cancle\"\r\n    \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:44371/api/booking/updateStatus"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44371/api/booking/deleteBooking",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "12345",
+						"username": "sweta"
+					}
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"BookingId\": 15,\r\n        \"RoomId\": 3,\r\n        \"BookingDate\": \"2021-02-20T00:00:00\",\r\n        \"BookingsStatus\": \"Optional\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:44371/api/booking/deleteBooking"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44371/api/room/bookRoom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "12345",
+						"username": "sweta"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"BookingId\": 15,\r\n        \"RoomId\": 3,\r\n        \"BookingDate\": \"2021-05-20T00:00:00\",\r\n        \"BookingsStatus\": \"Optional\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:44371/api/room/bookRoom"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44371/api/hotel/createHotel",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "12345",
+						"username": "sweta"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"HotelId\": 6,\r\n    \"HotelName\": \"5 star\",\r\n    \"Address\": \"Ahmadabad\",\r\n    \"City\": \"Mumbai\",\r\n    \"PinCode\": 12345,\r\n    \"ContactNo\": 987654321,\r\n    \"ContactPerson\": \"shyam\",\r\n    \"Website\": \"https://www.tajhotels.com/\",\r\n    \"Facebook\": null,\r\n    \"IsActive\": 1,\r\n    \"CreatedDate\": null,\r\n    \"CreatedBy\": null,\r\n    \"UpdatedDate\": null,\r\n    \"UpdatedBy\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:44371/api/hotel/createHotel"
+			},
+			"response": []
+		}
+	]
+}

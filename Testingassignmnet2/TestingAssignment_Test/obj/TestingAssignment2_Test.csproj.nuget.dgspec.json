@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testingassignmnet2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj": {}
   },
   "projects": {
@@ -12,14 +13,26 @@
         "projectPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testingassignmnet2\\TestingAssignment\\TestingAssignment2.csproj",
         "packagesPath": "C:\\Users\\Besitzer\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testingassignmnet2\\TestingAssignment\\obj\\",
+=======
+    "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testingassignmnet2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testingassignmnet2\\TestingAssignment\\TestingAssignment2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testingassignmnet2\\TestingAssignment\\TestingAssignment2.csproj",
+        "projectName": "TestingAssignment2",
+        "projectPath": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testingassignmnet2\\TestingAssignment\\TestingAssignment2.csproj",
+        "packagesPath": "C:\\Users\\sweta.mandani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testingassignmnet2\\TestingAssignment\\obj\\",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Besitzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\sweta.mandani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -50,19 +63,14 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testingassignmnet2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -71,14 +79,23 @@
         "projectPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testingassignmnet2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj",
         "packagesPath": "C:\\Users\\Besitzer\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testingassignmnet2\\TestingAssignment_Test\\obj\\",
+=======
+    "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testingassignmnet2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testingassignmnet2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj",
+        "projectName": "TestingAssignment2_Test",
+        "projectPath": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testingassignmnet2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj",
+        "packagesPath": "C:\\Users\\sweta.mandani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testingassignmnet2\\TestingAssignment_Test\\obj\\",
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Besitzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\sweta.mandani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -90,8 +107,13 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testingassignmnet2\\TestingAssignment\\TestingAssignment2.csproj": {
                 "projectPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testingassignmnet2\\TestingAssignment\\TestingAssignment2.csproj"
+=======
+              "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testingassignmnet2\\TestingAssignment\\TestingAssignment2.csproj": {
+                "projectPath": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testingassignmnet2\\TestingAssignment\\TestingAssignment2.csproj"
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812
               }
             }
           }
@@ -125,16 +147,10 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }

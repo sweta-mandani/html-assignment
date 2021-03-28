@@ -1,15 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 
-using Passenger_testing.Controllers;
-using Passenger_testing.Models;
 
 using Moq;
 using Newtonsoft.Json;
 
 using System;
-using Passenger_testing.Repositories;
+
 using Xunit;
+using Passenger_testing.Repositories;
+using Passenger_testing.Controllers;
 
 namespace CLPM_Test
 {
