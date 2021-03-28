@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Besitzer\\source\\repos\\Testing Assignment 2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj": {}
+    "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testingassignmnet2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Besitzer\\source\\repos\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj": {
+    "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testingassignmnet2\\TestingAssignment\\TestingAssignment2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Besitzer\\source\\repos\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj",
+        "projectUniqueName": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testingassignmnet2\\TestingAssignment\\TestingAssignment2.csproj",
         "projectName": "TestingAssignment2",
-        "projectPath": "C:\\Users\\Besitzer\\source\\repos\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj",
+        "projectPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testingassignmnet2\\TestingAssignment\\TestingAssignment2.csproj",
         "packagesPath": "C:\\Users\\Besitzer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Besitzer\\source\\repos\\Testing Assignment 2\\TestingAssignment\\obj\\",
+        "outputPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testingassignmnet2\\TestingAssignment\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\Besitzer\\source\\repos\\Testing Assignment 2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj": {
+    "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testingassignmnet2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Besitzer\\source\\repos\\Testing Assignment 2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj",
+        "projectUniqueName": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testingassignmnet2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj",
         "projectName": "TestingAssignment2_Test",
-        "projectPath": "C:\\Users\\Besitzer\\source\\repos\\Testing Assignment 2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj",
+        "projectPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testingassignmnet2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj",
         "packagesPath": "C:\\Users\\Besitzer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Besitzer\\source\\repos\\Testing Assignment 2\\TestingAssignment_Test\\obj\\",
+        "outputPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testingassignmnet2\\TestingAssignment_Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -90,8 +90,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\Besitzer\\source\\repos\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj": {
-                "projectPath": "C:\\Users\\Besitzer\\source\\repos\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj"
+              "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testingassignmnet2\\TestingAssignment\\TestingAssignment2.csproj": {
+                "projectPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testingassignmnet2\\TestingAssignment\\TestingAssignment2.csproj"
               }
             }
           }
