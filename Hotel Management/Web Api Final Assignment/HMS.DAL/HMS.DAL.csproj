@@ -56,9 +56,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD:Hotel Management/Web Api Final Assignment/HMS.DAL/HMS.DAL.csproj
+    <Compile Include="Database\Booking.cs">
+      <DependentUpon>HotelModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\HotelM.cs">
+      <DependentUpon>HotelModel.tt</DependentUpon>
+    </Compile>
+=======
     <Compile Include="Database\Booking_Detail.cs">
       <DependentUpon>HotelModel.tt</DependentUpon>
     </Compile>
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812:Hotel Management/HSM.Data/HSM.Data.csproj
     <Compile Include="Database\HotelModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -74,6 +83,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>HotelModel.edmx</DependentUpon>
     </Compile>
+<<<<<<< HEAD:Hotel Management/Web Api Final Assignment/HMS.DAL/HMS.DAL.csproj
+    <Compile Include="Database\Room.cs">
+      <DependentUpon>HotelModel.tt</DependentUpon>
+    </Compile>
+=======
     <Compile Include="Database\Hotel_Details.cs">
       <DependentUpon>HotelModel.tt</DependentUpon>
     </Compile>
@@ -83,6 +97,7 @@
     <Compile Include="Database\user_detail.cs">
       <DependentUpon>HotelModel.tt</DependentUpon>
     </Compile>
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812:Hotel Management/HSM.Data/HSM.Data.csproj
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\Classes\BookingRepository.cs" />
     <Compile Include="Repository\Classes\HotelRepository.cs" />
@@ -111,6 +126,10 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+<<<<<<< HEAD:Hotel Management/Web Api Final Assignment/HMS.DAL/HMS.DAL.csproj
+  <ItemGroup />
+=======
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812:Hotel Management/HSM.Data/HSM.Data.csproj
   <ItemGroup>
     <Content Include="Database\HotelModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>

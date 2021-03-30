@@ -10,9 +10,21 @@ F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.
 F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.csproj.CoreCompileInputs.cache
 F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.dll
 F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.pdb
+<<<<<<< HEAD:Hotel Management/Web Api Final Assignment/HMS.Models/obj/Debug/HMS.Models.csproj.FileListAbsolute.txt
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\bin\Debug\HMS.Models.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\bin\Debug\HMS.Models.pdb
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\bin\Debug\AutoMapper.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\bin\Debug\AutoMapper.xml
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.csprojAssemblyReference.cache
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.csproj.CoreCompileInputs.cache
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.csproj.CopyComplete
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.pdb
+=======
 C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\bin\Debug\HMS.Models.dll
 C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\bin\Debug\HMS.Models.pdb
 C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.csprojAssemblyReference.cache
 C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.csproj.CoreCompileInputs.cache
 C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.dll
 C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.Models\obj\Debug\HMS.Models.pdb
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812:Hotel Management/HMS.Models/obj/Debug/HMS.Models.csproj.FileListAbsolute.txt

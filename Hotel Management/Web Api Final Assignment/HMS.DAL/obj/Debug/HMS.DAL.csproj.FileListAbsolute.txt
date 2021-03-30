@@ -34,6 +34,26 @@ F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.
 F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.csproj.CopyComplete
 F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.dll
 F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.pdb
+<<<<<<< HEAD
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.DAL.dll.config
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.DAL.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.DAL.pdb
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\AutoMapper.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.Models.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\System.ValueTuple.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.Models.pdb
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\AutoMapper.xml
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\System.ValueTuple.xml
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.csprojAssemblyReference.cache
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.csproj.CopyComplete
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.pdb
+=======
 C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.DAL.dll.config
 C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.DAL.dll
 C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\bin\Debug\HMS.DAL.pdb
@@ -52,3 +72,4 @@ C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment
 C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.csproj.CopyComplete
 C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.dll
 C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.DAL\obj\Debug\HMS.DAL.pdb
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812

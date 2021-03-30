@@ -58,6 +58,37 @@ F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.
 F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\obj\Debug\HMS.BAL.csproj.CopyComplete
 F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\obj\Debug\HMS.BAL.dll
 F:\GitProjects\Assignments\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\obj\Debug\HMS.BAL.pdb
+<<<<<<< HEAD:Hotel Management/Web Api Final Assignment/HMS.BAL/obj/Debug/HMS.BAL.csproj.FileListAbsolute.txt
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\HMS.BAL.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\HMS.BAL.pdb
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\HMS.DAL.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\HMS.Models.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\System.Web.Http.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\Unity.Abstractions.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\Unity.Container.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\Unity.WebApi.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\EntityFramework.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\AutoMapper.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\HMS.DAL.pdb
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\HMS.DAL.dll.config
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\HMS.Models.pdb
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\System.Web.Http.xml
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\Unity.Abstractions.pdb
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\Unity.Container.pdb
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\EntityFramework.xml
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\AutoMapper.xml
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\obj\Debug\HMS.BAL.csprojAssemblyReference.cache
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\obj\Debug\HMS.BAL.csproj.CoreCompileInputs.cache
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\obj\Debug\HMS.BAL.csproj.CopyComplete
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\obj\Debug\HMS.BAL.dll
+C:\Users\Besitzer\source\repos\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\obj\Debug\HMS.BAL.pdb
+=======
 C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\HMS.BAL.dll
 C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\HMS.BAL.pdb
 C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\bin\Debug\HMS.DAL.dll
@@ -87,3 +118,4 @@ C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment
 C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\obj\Debug\HMS.BAL.csproj.CopyComplete
 C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\obj\Debug\HMS.BAL.dll
 C:\Users\sweta.mandani\Downloads\WebApi_Final_Assignment\WebApi Final Assignment\Web Api Final Assignment\HMS.BAL\obj\Debug\HMS.BAL.pdb
+>>>>>>> 629a58571175ef9707ce094f74f8f06f26139812:Hotel Management/HMS.BAL/obj/Debug/HMS.BAL.csproj.FileListAbsolute.txt
