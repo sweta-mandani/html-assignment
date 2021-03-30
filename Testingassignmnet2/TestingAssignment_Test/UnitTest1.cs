@@ -15,8 +15,7 @@ namespace TestingAssignment_Test
             var input = "sahil";
             var expectedValue = "SAHIL";
             // Act
-            var result = AssignmentBLL.AddUpperCase(input);
-            //Assert
+            var result = input.AddUpperCase();
             Assert.Equal(expectedValue, result);
         }
 

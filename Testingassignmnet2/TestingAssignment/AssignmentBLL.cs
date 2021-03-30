@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
+using System.Linq;
 
 namespace TestingAssignment
 {
@@ -9,8 +10,9 @@ namespace TestingAssignment
     {
 
         // lowercase characters converted to uppercase.
-        public static String AddUpperCase(String str)
+        public static String AddUpperCase(this String str)
         {
+           
 
             str = str.ToUpper();
             return str;
@@ -80,15 +82,9 @@ namespace TestingAssignment
             return isNumeric;
         }
 
-=======
 
-        //valid numeric value or not.
-        public static bool NumberValidation(String input)
-        {
-            int n;
-            bool isNumeric = int.TryParse(input, out n);
-            return isNumeric;
-        }
+
+       
 
 
         //remove the last character from given the string
@@ -110,23 +106,15 @@ namespace TestingAssignment
             int ln = input.Length;
             String[] words = input.Split(' ');
 
-            return words.Length;
+                return words.Length;
         }
 
 
-        }
+        
 
 
         //    word count from an input string.
-        public static int WordCount(this String input)
-        {
-
-
-            int ln = input.Length;
-            String[] words = input.Split(' ');
-
-            return words.Length;
-        }
+        
 
 
         // input string to integer.
