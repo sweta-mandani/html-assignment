@@ -1,16 +1,22 @@
 {
   "version": 2,
+<<<<<<< HEAD:Testingassignmnet2/TestingAssignment/obj/project.nuget.cache
+  "dgSpecHash": "VIUUGf0v8CLTsAGVwQ/z8SRqrVmEppEZryzazkBUHIGg8/4N6ey1nVKBJ51fLD/P279UBVkBlQJMlaCCVgeMVQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testingassignmnet2\\TestingAssignment\\TestingAssignment2.csproj",
+=======
   "dgSpecHash": "DH4kvQla7rDzQFmwFzDkoRDCh0HoDv+xQ63+iUL0ZqFeTVhC4Lc4uvB8N1B1OQpr4nNAIldwb2PhaImUbXWtBA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj",
+>>>>>>> 908f9995d6c7e17250f424e7b96cff767fa77195:Testing Assignment 2/TestingAssignment/obj/project.nuget.cache
   "expectedPackageFiles": [
-    "C:\\Users\\Besitzer\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
-    "C:\\Users\\Besitzer\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
-    "C:\\Users\\Besitzer\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
-    "C:\\Users\\Besitzer\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
-    "C:\\Users\\Besitzer\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
-    "C:\\Users\\Besitzer\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
-    "C:\\Users\\Besitzer\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

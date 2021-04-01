@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -41,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -59,7 +61,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+<<<<<<< HEAD:Testingassignmnet2/TestingAssignment_Test/obj/TestingAssignment2_Test.csproj.nuget.dgspec.json
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+>>>>>>> 908f9995d6c7e17250f424e7b96cff767fa77195:Testing Assignment 2/TestingAssignment_Test/obj/TestingAssignment2_Test.csproj.nuget.dgspec.json
         }
       }
     },
@@ -89,6 +95,7 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {
               "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj": {
                 "projectPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj"
@@ -104,6 +111,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -134,7 +142,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+<<<<<<< HEAD:Testingassignmnet2/TestingAssignment_Test/obj/TestingAssignment2_Test.csproj.nuget.dgspec.json
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+>>>>>>> 908f9995d6c7e17250f424e7b96cff767fa77195:Testing Assignment 2/TestingAssignment_Test/obj/TestingAssignment2_Test.csproj.nuget.dgspec.json
         }
       }
     }

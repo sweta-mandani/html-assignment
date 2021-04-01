@@ -17,7 +17,10 @@ namespace TestingAssignment_Test
             var expectedValue = "SAHIL";
             // Act
             var result = input.AddUpperCase();
+<<<<<<< HEAD:Testingassignmnet2/TestingAssignment_Test/UnitTest1.cs
+=======
             //Assert
+>>>>>>> 908f9995d6c7e17250f424e7b96cff767fa77195:Testing Assignment 2/TestingAssignment_Test/UnitTest1.cs
             Assert.Equal(expectedValue, result);
         }
 

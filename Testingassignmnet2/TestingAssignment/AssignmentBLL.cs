@@ -1,0 +1,130 @@
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Text;
+using System.Linq;
+
+namespace TestingAssignment
+{
+    public static class AssignmentBLL
+    {
+
+        // lowercase characters converted to uppercase.
+        public static String AddUpperCase(this String str)
+        {
+           
+
+            str = str.ToUpper();
+            return str;
+        }
+
+
+        //uppercase characters converted to     lowercase and vice versa.
+        public static String AddLowerCase(String str)
+        {
+            str = str.ToLower();
+            return str;
+
+        }
+
+        //string to title case 
+        public static string TitleCase(string str)
+        {
+           str = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(str);
+            return str;
+        }
+
+
+        //lower case or not
+
+        public static bool CheckLowerCase(this String str)
+        {
+            int ln = str.Length;
+
+            for (int i = 0; i < ln; i++)
+            {
+                if (str[i] >= 'A' && str[i] <= 'Z')
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        //first character have upper case and the rest lower case.
+        public static string FirstUpperLetter(String str)
+        {
+            if (str == null)
+                return null;
+
+            if (str.Length > 1)
+                return char.ToUpper(str[0]) + str.Substring(1);
+
+            return str.ToUpper();
+        }
+        //upper case or not
+        public static bool CheckUpperCase(String str)
+        {
+            foreach (char input in str)
+            {
+                if (Char.IsUpper(input))
+                    return str;
+            }
+            return str;
+        }
+
+
+        //valid numeric value or not.
+        public static bool NumberValidation(String input)
+        {
+            int n;
+            bool isNumeric = int.TryParse(input, out n);
+            return isNumeric;
+        }
+
+
+
+       
+
+
+        //remove the last character from given the string
+        public static String LastCharacterRemove(String str)
+        {
+            if (str == null)
+                return null;
+            else
+                return str.Remove(str.Length - 1);
+
+        }
+
+
+        //    word count from an input string.
+        public static int WordCount(this String input)
+        {
+
+
+            int ln = input.Length;
+            String[] words = input.Split(' ');
+
+                return words.Length;
+        }
+
+
+        
+
+
+        //    word count from an input string.
+        
+
+
+        // input string to integer.
+        public static int StringToInt(String input)
+        {
+            int x = 0;
+
+            Int32.TryParse(input, out x);
+            return x;
+        }
+    }
+}
+
