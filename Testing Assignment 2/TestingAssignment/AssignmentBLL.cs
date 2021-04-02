@@ -7,8 +7,12 @@ namespace TestingAssignment
 {
     public static class AssignmentBLL
     {
-
-        // 1. lowercase characters converted to uppercase.
+        /// <summary>
+        /// 1. lowercase characters converted to uppercase.
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+      
         public static String AddUpperCase(this String input)
         {
             StringBuilder str = new StringBuilder(input);
@@ -22,7 +26,12 @@ namespace TestingAssignment
             return str.ToString();
         }
 
-        //2.uppercase characters converted to     lowercase and vice versa.
+        /// <summary>
+        /// 2.uppercase characters converted to lowercase and vice versa.
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+
         public static String AddLowerCase(this String input)
         {
             StringBuilder str = new StringBuilder(input);
@@ -35,18 +44,25 @@ namespace TestingAssignment
             }
             return str.ToString();
         }
-        
-        //3.string to title case 
+
+        /// <summary>
+        /// 3.string to title case 
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
+       
         public static string TitleCase(this string str)
         {
             str = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(str);
             return str;
         }
 
+        /// <summary>
+        /// 4.lower case or not
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
        
-
-
-        //4.lower case or not
 
         public static bool CheckLowerCase(this String str)
         {
@@ -62,9 +78,12 @@ namespace TestingAssignment
             return true;
         }
 
-
-
-        // 5.first character have upper case and the rest lower case.
+        /// <summary>
+        /// 5.first character have upper case and the rest lower case.
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
+       
         public static string FirstUpperLetter(this string str)
         {
             if (str == null)
@@ -76,8 +95,12 @@ namespace TestingAssignment
             return str.ToUpper();
         }
 
-
-        //6.upper case or not
+        /// <summary>
+        /// 6.upper case or not
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
+        
         public static bool CheckUpperCase(this String str)
         {
             int ln = str.Length;
@@ -91,8 +114,13 @@ namespace TestingAssignment
             }
             return true;
         }
-       
-        //7.valid numeric value or not.
+
+        /// <summary>
+        /// 7.valid numeric value or not.
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>  
+      
         public static bool NumberValidation(this String input)
         {
             int n;
@@ -100,7 +128,12 @@ namespace TestingAssignment
             return isNumeric;
         }
 
-        //8.remove the last character from given the string
+        /// <summary>
+        /// 8.remove the last character from given the string
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
+  
         public static String LastCharacterRemove(this String str)
         {
             if (str == null)
@@ -109,7 +142,12 @@ namespace TestingAssignment
                 return str.Substring(0, str.Length - 1);
         }
 
-        //9-word count from an input string.
+        /// <summary>
+        /// 9-word count from an input string.
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+
         public static int WordCount(this String input)
         {
             int ln = input.Length;
@@ -118,9 +156,13 @@ namespace TestingAssignment
             return words.Length;
         }
 
-        //10. input string to integer.
-
-        public static int StringToInt(this String input)
+        /// <summary>
+        /// 10. input string to integer.
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+       
+         public static int StringToInt(this String input)
         {
             int x = 0;
 

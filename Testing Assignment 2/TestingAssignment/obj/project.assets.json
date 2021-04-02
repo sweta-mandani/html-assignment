@@ -559,7 +559,6 @@
       "path": "netstandard.library/2.0.3",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -689,25 +688,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Besitzer\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\sweta.mandani\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj",
+      "projectUniqueName": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj",
       "projectName": "TestingAssignment2",
-      "projectPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj",
-      "packagesPath": "C:\\Users\\Besitzer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testing Assignment 2\\TestingAssignment\\obj\\",
+      "projectPath": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj",
+      "packagesPath": "C:\\Users\\sweta.mandani\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testing Assignment 2\\TestingAssignment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Besitzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\sweta.mandani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -749,12 +747,16 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-<<<<<<< HEAD:Testingassignmnet2/TestingAssignment/obj/project.assets.json
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
->>>>>>> 908f9995d6c7e17250f424e7b96cff767fa77195:Testing Assignment 2/TestingAssignment/obj/project.assets.json
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testing Assignment 2\\TestingAssignment\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

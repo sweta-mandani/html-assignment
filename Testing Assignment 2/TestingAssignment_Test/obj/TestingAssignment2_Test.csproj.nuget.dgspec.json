@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testing Assignment 2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj": {}
+    "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testing Assignment 2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj": {
+    "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj",
+        "projectUniqueName": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj",
         "projectName": "TestingAssignment2",
-        "projectPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj",
-        "packagesPath": "C:\\Users\\Besitzer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testing Assignment 2\\TestingAssignment\\obj\\",
+        "projectPath": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj",
+        "packagesPath": "C:\\Users\\sweta.mandani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testing Assignment 2\\TestingAssignment\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Besitzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\sweta.mandani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -61,30 +60,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-<<<<<<< HEAD:Testingassignmnet2/TestingAssignment_Test/obj/TestingAssignment2_Test.csproj.nuget.dgspec.json
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
->>>>>>> 908f9995d6c7e17250f424e7b96cff767fa77195:Testing Assignment 2/TestingAssignment_Test/obj/TestingAssignment2_Test.csproj.nuget.dgspec.json
         }
       }
     },
-    "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testing Assignment 2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj": {
+    "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testing Assignment 2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testing Assignment 2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj",
+        "projectUniqueName": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testing Assignment 2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj",
         "projectName": "TestingAssignment2_Test",
-        "projectPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testing Assignment 2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj",
-        "packagesPath": "C:\\Users\\Besitzer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testing Assignment 2\\TestingAssignment_Test\\obj\\",
+        "projectPath": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testing Assignment 2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj",
+        "packagesPath": "C:\\Users\\sweta.mandani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testing Assignment 2\\TestingAssignment_Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Besitzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\sweta.mandani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -97,8 +91,8 @@
           "netcoreapp2.1": {
             "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj": {
-                "projectPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj"
+              "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj": {
+                "projectPath": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testing Assignment 2\\TestingAssignment\\TestingAssignment2.csproj"
               }
             }
           }
@@ -142,11 +136,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-<<<<<<< HEAD:Testingassignmnet2/TestingAssignment_Test/obj/TestingAssignment2_Test.csproj.nuget.dgspec.json
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
->>>>>>> 908f9995d6c7e17250f424e7b96cff767fa77195:Testing Assignment 2/TestingAssignment_Test/obj/TestingAssignment2_Test.csproj.nuget.dgspec.json
         }
       }
     }

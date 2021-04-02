@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD:Testingassignmnet2/TestingAssignment_Test/obj/project.nuget.cache
-  "dgSpecHash": "IsBfZU8JF0U2b3vROtNmT8qFQUo9t3iJPVetMOVd28ugZQlLS9M/ZjRMQ33eudOmh5JbPNfZjhOVKZrOy8bILg==",
+  "dgSpecHash": "VdcdXzi+jdZTfWLbY4HB4G6aKLeUN2b4N1hwj1+0BwlQOP4NIFJtycJavjjxqHoiRzbhaqB76HHybUmToWG7og==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testingassignmnet2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj",
-=======
-  "dgSpecHash": "4RP/PSyTShj2KjB0ivAWb7d8ocaveRZBhcHaghVCBkQraZ+BfdOV70XgkuTPReq1DC29rRXqXr3XUSe3d81jmA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Testing Assignment 2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj",
->>>>>>> 908f9995d6c7e17250f424e7b96cff767fa77195:Testing Assignment 2/TestingAssignment_Test/obj/project.nuget.cache
+  "projectFilePath": "C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testing Assignment 2\\TestingAssignment_Test\\TestingAssignment2_Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sweta.mandani\\.nuget\\packages\\microsoft.codecoverage\\15.9.0\\microsoft.codecoverage.15.9.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
@@ -94,5 +88,12 @@
     "C:\\Users\\sweta.mandani\\.nuget\\packages\\xunit.extensibility.execution\\2.4.0\\xunit.extensibility.execution.2.4.0.nupkg.sha512",
     "C:\\Users\\sweta.mandani\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.0\\xunit.runner.visualstudio.2.4.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\sweta.mandani\\source\\repos\\GIT\\html-assignment\\Testing Assignment 2\\TestingAssignment_Test\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

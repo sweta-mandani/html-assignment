@@ -1,22 +1,6 @@
 {
   "Users": [
     {
-      "id": "02",
-      "email": "thegatewaycorp.com",
-      "name": "Gateway Group of Companies",
-      "totalEmployee": "500",
-      "address": "Bodakdev",
-      "isCompanyActive": true,
-      "totalBranch": "4",
-      "companyBranch": [
-        {
-          "branchId": "02",
-          "branchName": "MS Office",
-          "address": "302, Gandhinagar"
-        }
-      ]
-    },
-    {
       "id": "03",
       "name": "sweta mandani",
       "email": "swetamandani2000@gmail.om",
@@ -33,20 +17,13 @@
       ]
     },
     {
-      "id": "04",
       "name": "sweta mandani",
       "email": "swetamandani2000@gmail.om",
       "totalEmployee": "4",
       "address": "301",
       "isCompanyActive": "true",
       "totalBranch": "2",
-      "companyBranch": [
-        {
-          "branchId": "02",
-          "branchName": "MS Office",
-          "address": "302, Gandhinagar"
-        }
-      ]
+      "id": "0PJ0BrO"
     }
   ]
 }

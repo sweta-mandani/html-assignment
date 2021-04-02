@@ -7,149 +7,241 @@ namespace TestingAssignment_Test
     public class UnitTest1
     {
 
-       
-        //1
-        [Fact]
-        public void Test_AddUpperCase()
+
+        /// <summary>
+        /// lowercase characters converted to uppercase.
+        /// </summary>
+        /// <param name="input"></param>
+        /// <param name="output"></param>
+
+        [Theory]
+        [InlineData("sahil", "SAHIL")]
+        [InlineData("sWeta", "SWETA")]
+        [InlineData("sWeta@", "SWETA@")]
+        [InlineData("sWeta12", "SWETA12")]
+
+        public void Test_AddUpperCase(string input, string output)
         {
-            //Arrange
-            var input = "sahil";
-            var expectedValue = "SAHIL";
+            // Arrange
+
             // Act
             var result = input.AddUpperCase();
-<<<<<<< HEAD:Testingassignmnet2/TestingAssignment_Test/UnitTest1.cs
-=======
-            //Assert
->>>>>>> 908f9995d6c7e17250f424e7b96cff767fa77195:Testing Assignment 2/TestingAssignment_Test/UnitTest1.cs
-            Assert.Equal(expectedValue, result);
+            // Assert
+            Assert.Equal(output, result);
         }
 
-        //2
-        [Fact]
-        public void Test_AddLowerCase()
+        /// <summary>
+        /// uppercase characters converted to lowercase .
+        /// </summary>
+        /// <param name="input"></param>
+        /// <param name="output"></param>
+
+        [Theory]
+        [InlineData("SAHIL", "sahil")]
+        [InlineData("SWETA", "sweta")]
+        [InlineData("SWETA@", "sweta@")]
+        [InlineData("SWETA12", "sweta12")]
+        public void Test_AddLowerCase(string input, string output)
         {
             //Arrange
-            var input = "SAHIL";
-            var expectedValue = "sahil";
+
             // Act
             var result = input.AddLowerCase();
-            //Assert
-            Assert.Equal(expectedValue, result);
+            // Assert
+            Assert.Equal(output, result);
         }
 
-        //3
-        [Fact]
-        public void Task_TitleCase()
+        /// <summary>
+        /// positive string to title case 
+        /// </summary>
+        /// <param name="input"></param>
+        /// <param name="output"></param>
+
+        [Theory]
+        [InlineData("tcs digital", "Tcs Digital")]
+        [InlineData("tcs digital ninja", "Tcs Digital Ninja")]
+        public void TaskPositive_TitleCase(string input, string output)
         {
-            //Arrange
+            // Arrange
 
-            var input = "tcs digital";
-            var expectedString = "Tcs Digital";
-
-            //Act
+            // Act
             var result = input.TitleCase();
-
-
-            //Assert
-            Assert.Equal(expectedString, result);
+            // Assert
+            Assert.Equal(output, result);
         }
 
+        /// <summary>
+        ///  Negative string to title case 
+        /// </summary>
+        /// <param name="input"></param>
+        /// <param name="output"></param>
 
-        //4
-
-        [Fact]
-        public void Test_CheckLowerCase()
+        [Theory]
+        [InlineData("tcs digital", "TCs DiGital")]
+        [InlineData("tcs digital ninja", "tcs digital Ninja")]
+        public void TaskNegative_TitleCase(string input, string output)
         {
-            //Arrange
-            var input = "do or die";
-            var expectedValue = true;
+            // Arrange
+
+            // Act
+            var result = input.TitleCase();
+            // Assert
+            Assert.NotEqual(output, result);
+        }
+
+        /// <summary>
+        /// lower case or not
+        /// </summary>
+        /// <param name="input"></param>
+        /// <param name="output"></param>
+        
+        [Theory]
+        [InlineData("do or die", true)]
+        [InlineData("SWETA", false)]
+
+        public void Test_CheckLowerCase(string input, bool output)
+        {
+            // Arrange
+          
             // Act
             var result = input.CheckLowerCase();
-            //Assert
-            Assert.Equal(expectedValue, result);
+            // Assert
+            Assert.Equal(output, result);
         }
 
-        //5
+        /// <summary>
+        /// first character have upper case and the rest lower case.
+        /// </summary>
+        /// <param name="input"></param>
+        /// <param name="output"></param>
 
-        [Fact]
-        public void Test_FirstUpperLetter()
+        [Theory]
+        [InlineData("SWETA", "SWETA")]
+        [InlineData("SWETA123", "SWETA123")]
+        public void Test_FirstUpperLetter(string input, string output)
         {
-            //Arrange
-            var input = "sweta";
-            var expectedValue = "Sweta";
+            // Arrange
+          
             // Act
             var result = input.FirstUpperLetter();
-            //Assert
-            Assert.Equal(expectedValue, result);
+            // Assert
+            Assert.Equal(output, result);
         }
 
-
-        //6
-        [Fact]
-        public void Test_CheckUpperCase()
+        /// <summary>
+        /// upper case or not
+        /// </summary>
+        /// <param name="input"></param>
+        /// <param name="output"></param>
+       
+        [Theory]
+        [InlineData("do or die", false)]
+        [InlineData("SWETA", true)]
+        [InlineData("SWETA123", true)]
+        public void Test_CheckUpperCase(string input, bool output)
         {
-            //Arrange
-            var input = "SWETA";
-            var expectedValue = true;
+            // Arrange
+           
             // Act
             var result = input.CheckUpperCase();
-            //Assert
-            Assert.Equal(expectedValue, result);
+            // Assert
+            Assert.Equal(output, result);
         }
 
-        //7
-        [Fact]
-        public void Test_NumberValidation()
+        /// <summary>
+        /// valid numeric value or not
+        /// </summary>
+        /// <param name="input"></param>
+        /// <param name="output"></param>
+        
+        [Theory]
+        [InlineData("123@", false)]
+        [InlineData("123", true)]
+        [InlineData("SWETA123", false)]
+        public void Test_NumberValidation(string input, bool output)
         {
-            //Arrange
-            var input = "123";
-            var expectedValue = true;
+            // Arrange
+           
             // Act
             var result = input.NumberValidation();
-            //Assert
-            Assert.Equal(expectedValue, result);
+            // Assert
+            Assert.Equal(output, result);
         }
 
-        //8
-
-        [Fact]
-        public void Test_LastCharacterRemove()
+        /// <summary>
+        /// Positive result remove the last character from given the string
+        /// </summary>
+        /// <param name="input"></param>
+        /// <param name="output"></param>
+       
+        [Theory]
+        [InlineData("sweta", "swet")]
+        [InlineData("com","co")]
+        public void TestPositive_LastCharacterRemove(string input, string output)
         {
             //Arrange
-            var input = "sweta";
-            var expectedValue = "swet";
+           
             // Act
             var result = input.LastCharacterRemove();
             //Assert
-            Assert.Equal(expectedValue, result);
+            Assert.Equal(output, result);
         }
 
-        //9
-        [Fact]
-        public void Test_WordCount()
+        /// <summary>
+        /// negative result remove the last character from given the string
+        /// </summary>
+        /// <param name="input"></param>
+        /// <param name="output"></param>
+        
+        [Theory]
+        [InlineData("sweta", "swetaa")]
+        [InlineData("com", "com")]
+        public void TestNegative_LastCharacterRemove(string input, string output)
         {
             //Arrange
-            var input = "sahil";
-            var expectedValue = 1;
+
+            // Act
+            var result = input.LastCharacterRemove();
+            //Assert
+            Assert.NotEqual(output, result);
+        }
+
+        /// <summary>
+        /// word count from an input string.
+        /// </summary>
+        /// <param name="input"></param>
+        /// <param name="output"></param>
+
+        [Theory]
+        [InlineData("sweta", 1)]
+        [InlineData("tcs digital", 2)]
+        public void Test_WordCount(string input, int output)
+        {
+            //Arrange
+         
             // Act
             var result = input.WordCount();
             //Assert
-            Assert.Equal(expectedValue, result);
+            Assert.Equal(output, result);
         }
 
+        /// <summary>
+        /// input string to integer.
+        /// </summary>
+        /// <param name="input"></param>
+        /// <param name="output"></param>
 
-        //10
-
-        [Fact]
-        public void Test_StringToInt()
+        [Theory]
+        [InlineData("123",123)]
+        [InlineData("235", 235 )]
+        public void Test_StringToInt(string input, int output)
         {
-            //Arrange
-            var input = "123";
-            var expectedValue = 123;
+            // Arrange
+          
             // Act
             var result = input.StringToInt();
-            //Assert
-            Assert.Equal(expectedValue, result);
+            // Assert
+            Assert.Equal(output, result);
         }
     }
 }
