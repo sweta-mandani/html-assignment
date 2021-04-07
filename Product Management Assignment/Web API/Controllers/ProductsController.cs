@@ -16,7 +16,7 @@ namespace WebApiInMVC.Controllers
 {
     public class ProductsController : ApiController
     {
-        private UserEntities1 db = new UserEntities1();
+        private UserEntities db = new UserEntities();
         // GET: api/Products
         public IHttpActionResult GetProducts()
         {

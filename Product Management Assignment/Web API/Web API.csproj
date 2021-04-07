@@ -198,6 +198,9 @@
     <Compile Include="Models\Product.cs">
       <DependentUpon>UserProduct.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\ProductDisplay_Result.cs">
+      <DependentUpon>UserProduct.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\UserProduct.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

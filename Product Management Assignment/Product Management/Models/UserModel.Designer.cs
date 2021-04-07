@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\Besitzer\source\repos\Product Management\Product Management\Models\UserProduct.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Product Management Assignment\Product Management\Models\UserModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="UserModelStoreContainer" CdmEntityContainer="UserEntities1">
+  <EntityContainerMapping StorageEntityContainer="UserModelStoreContainer" CdmEntityContainer="UserEntities">
     <EntitySetMapping Name="Accounts">
       <EntityTypeMapping TypeName="UserModel.Account">
         <MappingFragment StoreEntitySet="Account">
@@ -31,5 +31,20 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="ProductDisplay" FunctionName="UserModel.Store.ProductDisplay">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="UserModel.ProductDisplay_Result">
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="Categoery" ColumnName="Categoery" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Short_Description" ColumnName="Short_Description" />
+          <ScalarProperty Name="Small_Image" ColumnName="Small_Image" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ProductInsert" FunctionName="UserModel.Store.ProductInsert" />
+    <FunctionImportMapping FunctionImportName="ProductUpdate" FunctionName="UserModel.Store.ProductUpdate" />
   </EntityContainerMapping>
 </Mapping>

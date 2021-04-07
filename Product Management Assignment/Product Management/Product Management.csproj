@@ -198,28 +198,34 @@
     </Compile>
     <Compile Include="global.cs" />
     <Compile Include="Models\Account.cs">
-      <DependentUpon>UserProduct.tt</DependentUpon>
+      <DependentUpon>UserModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\NLog_Error.cs">
+      <DependentUpon>UserModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Product.cs">
-      <DependentUpon>UserProduct.tt</DependentUpon>
+      <DependentUpon>UserModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\UserProduct.Context.cs">
+    <Compile Include="Models\ProductDisplay_Result.cs">
+      <DependentUpon>UserModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UserModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>UserProduct.Context.tt</DependentUpon>
+      <DependentUpon>UserModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\UserProduct.cs">
+    <Compile Include="Models\UserModel.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>UserProduct.tt</DependentUpon>
+      <DependentUpon>UserModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\UserProduct.Designer.cs">
+    <Compile Include="Models\UserModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>UserProduct.edmx</DependentUpon>
+      <DependentUpon>UserModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -236,27 +242,27 @@
     <Content Include="Content\Site.css" />
     <Content Include="Image\img3.jpg" />
     <Content Include="Image\img6.jpg" />
-    <Content Include="Models\UserProduct.Context.tt">
+    <Content Include="Models\UserModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>UserProduct.edmx</DependentUpon>
-      <LastGenOutput>UserProduct.Context.cs</LastGenOutput>
+      <DependentUpon>UserModel.edmx</DependentUpon>
+      <LastGenOutput>UserModel.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\UserProduct.tt">
+    <Content Include="Models\UserModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>UserProduct.edmx</DependentUpon>
-      <LastGenOutput>UserProduct.cs</LastGenOutput>
+      <DependentUpon>UserModel.edmx</DependentUpon>
+      <LastGenOutput>UserModel.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <EntityDeploy Include="Models\UserProduct.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>UserProduct.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Models\UserProduct.edmx.diagram">
-      <DependentUpon>UserProduct.edmx</DependentUpon>
-    </Content>
     <Content Include="NLog.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EntityDeploy Include="Models\UserModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>UserModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\UserModel.edmx.diagram">
+      <DependentUpon>UserModel.edmx</DependentUpon>
     </Content>
     <None Include="NLog.xsd">
       <SubType>Designer</SubType>

@@ -12,11 +12,13 @@ namespace Web_API.Models
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Entity.Core.Objects;
+    using System.Linq;
     
-    public partial class UserEntities1 : DbContext
+    public partial class UserEntities : DbContext
     {
-        public UserEntities1()
-            : base("name=UserEntities1")
+        public UserEntities()
+            : base("name=UserEntities")
         {
         }
     
@@ -27,5 +29,76 @@ namespace Web_API.Models
     
         public virtual DbSet<Account> Accounts { get; set; }
         public virtual DbSet<Product> Products { get; set; }
+    
+        public virtual ObjectResult<ProductDisplay_Result> ProductDisplay()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<ProductDisplay_Result>("ProductDisplay");
+        }
+    
+        public virtual int ProductInsert(Nullable<int> productId, string productName, string categoery, Nullable<decimal> price, string short_Description, Nullable<int> quantity, string small_image)
+        {
+            var productIdParameter = productId.HasValue ?
+                new ObjectParameter("ProductId", productId) :
+                new ObjectParameter("ProductId", typeof(int));
+    
+            var productNameParameter = productName != null ?
+                new ObjectParameter("ProductName", productName) :
+                new ObjectParameter("ProductName", typeof(string));
+    
+            var categoeryParameter = categoery != null ?
+                new ObjectParameter("Categoery", categoery) :
+                new ObjectParameter("Categoery", typeof(string));
+    
+            var priceParameter = price.HasValue ?
+                new ObjectParameter("Price", price) :
+                new ObjectParameter("Price", typeof(decimal));
+    
+            var short_DescriptionParameter = short_Description != null ?
+                new ObjectParameter("Short_Description", short_Description) :
+                new ObjectParameter("Short_Description", typeof(string));
+    
+            var quantityParameter = quantity.HasValue ?
+                new ObjectParameter("Quantity", quantity) :
+                new ObjectParameter("Quantity", typeof(int));
+    
+            var small_imageParameter = small_image != null ?
+                new ObjectParameter("Small_image", small_image) :
+                new ObjectParameter("Small_image", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("ProductInsert", productIdParameter, productNameParameter, categoeryParameter, priceParameter, short_DescriptionParameter, quantityParameter, small_imageParameter);
+        }
+    
+        public virtual int ProductUpdate(Nullable<int> productId, string productName, string categoery, Nullable<decimal> price, string short_Description, Nullable<int> quantity, string small_image)
+        {
+            var productIdParameter = productId.HasValue ?
+                new ObjectParameter("ProductId", productId) :
+                new ObjectParameter("ProductId", typeof(int));
+    
+            var productNameParameter = productName != null ?
+                new ObjectParameter("ProductName", productName) :
+                new ObjectParameter("ProductName", typeof(string));
+    
+            var categoeryParameter = categoery != null ?
+                new ObjectParameter("Categoery", categoery) :
+                new ObjectParameter("Categoery", typeof(string));
+    
+            var priceParameter = price.HasValue ?
+                new ObjectParameter("Price", price) :
+                new ObjectParameter("Price", typeof(decimal));
+    
+            var short_DescriptionParameter = short_Description != null ?
+                new ObjectParameter("Short_Description", short_Description) :
+                new ObjectParameter("Short_Description", typeof(string));
+    
+            var quantityParameter = quantity.HasValue ?
+                new ObjectParameter("Quantity", quantity) :
+                new ObjectParameter("Quantity", typeof(int));
+    
+            var small_imageParameter = small_image != null ?
+                new ObjectParameter("Small_image", small_image) :
+                new ObjectParameter("Small_image", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("ProductUpdate", productIdParameter, productNameParameter, categoeryParameter, priceParameter, short_DescriptionParameter, quantityParameter, small_imageParameter);
+        }
     }
 }

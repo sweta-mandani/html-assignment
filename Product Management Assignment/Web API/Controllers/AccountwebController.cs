@@ -10,7 +10,7 @@ namespace Web_API.Controllers
 {
     public class AccountwebController : Controller
     {
-        UserEntities1 db = new UserEntities1();
+        UserEntities db = new UserEntities();
         
 
         public ActionResult Register()

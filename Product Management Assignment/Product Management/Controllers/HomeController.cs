@@ -13,7 +13,7 @@ namespace Product_Management.Controllers
 {
     public class HomeController : Controller
     {
-        UserEntities1 db = new UserEntities1();
+        UserEntities db = new UserEntities();
         private static Logger logger = LogManager.GetCurrentClassLogger();
 
         //Login success

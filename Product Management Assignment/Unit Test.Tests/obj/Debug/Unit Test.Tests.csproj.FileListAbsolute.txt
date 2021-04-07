@@ -144,3 +144,7 @@ C:\Users\Besitzer\source\repos\Product-Management\Unit Test.Tests\bin\Debug\Unit
 C:\Users\Besitzer\source\repos\Product-Management\Unit Test.Tests\bin\Debug\Unity.Abstractions.dll
 C:\Users\Besitzer\source\repos\Product-Management\Unit Test.Tests\bin\Debug\Unity.Container.pdb
 C:\Users\Besitzer\source\repos\Product-Management\Unit Test.Tests\bin\Debug\Unity.Abstractions.pdb
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Product Management Assignment\Unit Test.Tests\obj\Debug\Unit Test.Tests.csprojAssemblyReference.cache
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Product Management Assignment\Unit Test.Tests\obj\Debug\Unit Test.Tests.csproj.CoreCompileInputs.cache
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Product Management Assignment\Unit Test.Tests\obj\Debug\Unit Test.Tests.dll
+C:\Users\sweta.mandani\source\repos\GIT\html-assignment\Product Management Assignment\Unit Test.Tests\obj\Debug\Unit Test.Tests.pdb

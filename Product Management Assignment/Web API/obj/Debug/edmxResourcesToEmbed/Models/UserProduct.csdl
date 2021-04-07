@@ -28,8 +28,36 @@
     <Property Name="Small_Image" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="Quantity" Type="Int32" Nullable="false" />
   </EntityType>
-  <EntityContainer Name="UserEntities1" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="UserEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Accounts" EntityType="Self.Account" />
     <EntitySet Name="Products" EntityType="Self.Product" />
+    <FunctionImport Name="ProductDisplay" ReturnType="Collection(UserModel.ProductDisplay_Result)" />
+    <FunctionImport Name="ProductInsert">
+      <Parameter Name="ProductId" Mode="In" Type="Int32" />
+      <Parameter Name="ProductName" Mode="In" Type="String" />
+      <Parameter Name="Categoery" Mode="In" Type="String" />
+      <Parameter Name="Price" Mode="In" Type="Decimal" />
+      <Parameter Name="Short_Description" Mode="In" Type="String" />
+      <Parameter Name="Quantity" Mode="In" Type="Int32" />
+      <Parameter Name="Small_image" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ProductUpdate">
+      <Parameter Name="ProductId" Mode="In" Type="Int32" />
+      <Parameter Name="ProductName" Mode="In" Type="String" />
+      <Parameter Name="Categoery" Mode="In" Type="String" />
+      <Parameter Name="Price" Mode="In" Type="Decimal" />
+      <Parameter Name="Short_Description" Mode="In" Type="String" />
+      <Parameter Name="Quantity" Mode="In" Type="Int32" />
+      <Parameter Name="Small_image" Mode="In" Type="String" />
+    </FunctionImport>
   </EntityContainer>
+  <ComplexType Name="ProductDisplay_Result">
+    <Property Type="Int32" Name="ProductId" Nullable="false" />
+    <Property Type="String" Name="ProductName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Categoery" Nullable="false" MaxLength="50" />
+    <Property Type="Decimal" Name="Price" Nullable="false" Precision="19" />
+    <Property Type="String" Name="Short_Description" Nullable="false" />
+    <Property Type="String" Name="Small_Image" Nullable="false" />
+    <Property Type="Int32" Name="Quantity" Nullable="false" />
+  </ComplexType>
 </Schema>

@@ -16,15 +16,15 @@ namespace WebApiInMVC.Controllers
 {
     public class AccountsController : ApiController
     {
-        private UserEntities1 db = new UserEntities1();
-        // GET: api/Products
+        private UserEntities db = new UserEntities();
+        // GET: api/Accounts
         public IHttpActionResult GetAccounts()
         {
             var res = db.Accounts.ToList();
             return Ok(res);
         }
 
-        // GET: api/Products/5
+        // GET: api/Accounts/5
         [ResponseType(typeof(Account))]
         public IHttpActionResult GetAccount(int id)
         {
@@ -38,7 +38,7 @@ namespace WebApiInMVC.Controllers
             return Ok(a);
         }
 
-        // PUT: api/Products/5
+        // PUT: api/Accounts/5
         [ResponseType(typeof(void))]
         [HttpPost]
         public IHttpActionResult PostRegister(Account a)

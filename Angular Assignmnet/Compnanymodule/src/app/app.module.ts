@@ -13,12 +13,14 @@ import { EditComponent } from './edit/edit.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     EmployeeComponent,
     EditComponent,
+    
  
     
   ],
