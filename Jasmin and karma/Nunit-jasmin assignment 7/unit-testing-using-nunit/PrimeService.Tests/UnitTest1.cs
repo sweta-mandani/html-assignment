@@ -41,7 +41,7 @@ namespace Prime.UnitTests.Services
         }
 
         /// <summary>
-        /// login test
+        /// Login using if and else
         /// </summary>
         [Test]
         public void TestLogin()
@@ -57,7 +57,7 @@ namespace Prime.UnitTests.Services
         
 
         /// <summary>
-        /// getdetails test
+        /// getdetails test using for loop
         /// </summary>
         [Test]
         public void getuserdetails()
@@ -74,22 +74,50 @@ namespace Prime.UnitTests.Services
 
 
         /// <summary>
-        /// getsalary
+        /// getsalary using foreach
         /// </summary>
         [Test]
         public void getsalary()
         {
 
-            var p = _primeService.getsalary(100);
+            var p = _primeService.getsalary(106);
             foreach (var x in p)
             {
-                
-                Assert.AreEqual("not grater", p);
-              
-                Assert.AreEqual(x.id, 101);
-                Assert.AreEqual(x.Name, "Bharat");
-            }
 
+                Assert.AreEqual(x.id, 106);
+            }
+           
+
+            
+
+        }
+
+        /// <summary>
+        /// get total salary using while loop
+        /// </summary>
+        [Test]
+        public void gettotalsalary()
+        {
+
+            double p = _primeService.totalsalary();
+            
+
+                Assert.AreEqual(23000, p);
+
+         }
+
+        /// <summary>
+        /// get gender using switch
+        /// </summary>
+        [Test]
+        public void getgender()
+        {
+
+             _primeService.getgender("male");
+
+
+            Assert.AreEqual("Male", "Male");
+            
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\unit-testing-using-nunit\\PrimeService.Tests\\PrimeService.Tests.csproj": {}
+    "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Jasmin and karma\\Nunit-jasmin assignment 7\\unit-testing-using-nunit\\PrimeService.Tests\\PrimeService.Tests.csproj": {}
   },
   "projects": {
-    "F:\\unit-testing-using-nunit\\PrimeService.Tests\\PrimeService.Tests.csproj": {
+    "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Jasmin and karma\\Nunit-jasmin assignment 7\\unit-testing-using-nunit\\PrimeService.Tests\\PrimeService.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\unit-testing-using-nunit\\PrimeService.Tests\\PrimeService.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Jasmin and karma\\Nunit-jasmin assignment 7\\unit-testing-using-nunit\\PrimeService.Tests\\PrimeService.Tests.csproj",
         "projectName": "PrimeService.Tests",
-        "projectPath": "F:\\unit-testing-using-nunit\\PrimeService.Tests\\PrimeService.Tests.csproj",
+        "projectPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Jasmin and karma\\Nunit-jasmin assignment 7\\unit-testing-using-nunit\\PrimeService.Tests\\PrimeService.Tests.csproj",
         "packagesPath": "C:\\Users\\Besitzer\\.nuget\\packages\\",
-        "outputPath": "F:\\unit-testing-using-nunit\\PrimeService.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Jasmin and karma\\Nunit-jasmin assignment 7\\unit-testing-using-nunit\\PrimeService.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "F:\\unit-testing-using-nunit\\PrimeService\\PrimeService.csproj": {
-                "projectPath": "F:\\unit-testing-using-nunit\\PrimeService\\PrimeService.csproj"
+              "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Jasmin and karma\\Nunit-jasmin assignment 7\\unit-testing-using-nunit\\PrimeService\\PrimeService.csproj": {
+                "projectPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Jasmin and karma\\Nunit-jasmin assignment 7\\unit-testing-using-nunit\\PrimeService\\PrimeService.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "F:\\unit-testing-using-nunit\\PrimeService\\PrimeService.csproj": {
+    "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Jasmin and karma\\Nunit-jasmin assignment 7\\unit-testing-using-nunit\\PrimeService\\PrimeService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\unit-testing-using-nunit\\PrimeService\\PrimeService.csproj",
+        "projectUniqueName": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Jasmin and karma\\Nunit-jasmin assignment 7\\unit-testing-using-nunit\\PrimeService\\PrimeService.csproj",
         "projectName": "PrimeService",
-        "projectPath": "F:\\unit-testing-using-nunit\\PrimeService\\PrimeService.csproj",
+        "projectPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Jasmin and karma\\Nunit-jasmin assignment 7\\unit-testing-using-nunit\\PrimeService\\PrimeService.csproj",
         "packagesPath": "C:\\Users\\Besitzer\\.nuget\\packages\\",
-        "outputPath": "F:\\unit-testing-using-nunit\\PrimeService\\obj\\",
+        "outputPath": "C:\\Users\\Besitzer\\source\\repos\\html-assignment\\Jasmin and karma\\Nunit-jasmin assignment 7\\unit-testing-using-nunit\\PrimeService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
