@@ -1,0 +1,13 @@
+C:\Users\Besitzer\source\repos\assignmnet8\assignmnet8\bin\Debug\netcoreapp3.1\assignment8.exe
+C:\Users\Besitzer\source\repos\assignmnet8\assignmnet8\bin\Debug\netcoreapp3.1\assignment8.deps.json
+C:\Users\Besitzer\source\repos\assignmnet8\assignmnet8\bin\Debug\netcoreapp3.1\assignment8.runtimeconfig.json
+C:\Users\Besitzer\source\repos\assignmnet8\assignmnet8\bin\Debug\netcoreapp3.1\assignment8.runtimeconfig.dev.json
+C:\Users\Besitzer\source\repos\assignmnet8\assignmnet8\bin\Debug\netcoreapp3.1\assignment8.dll
+C:\Users\Besitzer\source\repos\assignmnet8\assignmnet8\bin\Debug\netcoreapp3.1\assignment8.pdb
+C:\Users\Besitzer\source\repos\assignmnet8\assignmnet8\obj\Debug\netcoreapp3.1\assignment8.csprojAssemblyReference.cache
+C:\Users\Besitzer\source\repos\assignmnet8\assignmnet8\obj\Debug\netcoreapp3.1\assignment8.AssemblyInfoInputs.cache
+C:\Users\Besitzer\source\repos\assignmnet8\assignmnet8\obj\Debug\netcoreapp3.1\assignment8.AssemblyInfo.cs
+C:\Users\Besitzer\source\repos\assignmnet8\assignmnet8\obj\Debug\netcoreapp3.1\assignment8.csproj.CoreCompileInputs.cache
+C:\Users\Besitzer\source\repos\assignmnet8\assignmnet8\obj\Debug\netcoreapp3.1\assignment8.dll
+C:\Users\Besitzer\source\repos\assignmnet8\assignmnet8\obj\Debug\netcoreapp3.1\assignment8.pdb
+C:\Users\Besitzer\source\repos\assignmnet8\assignmnet8\obj\Debug\netcoreapp3.1\assignment8.genruntimeconfig.cache
